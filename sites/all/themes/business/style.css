@@ -79,6 +79,14 @@ div#block-user-login form#user-login-form div.item-list ul li.first { text-trans
 div#block-user-login form#user-login-form div.item-list ul li.first a { color: #b22525;}
 div#block-user-login form#user-login-form div#edit-actions input { margin-left: -15px;margin-top: 33px; }
 
+/* Cadastrar
+------------------------------*/
+div.password-suggestions { display: none; }
+
+/* Inline edit
+------------------------------*/
+div#block-edit-edit h2 { display:none; }
+
 /* Contato - Page
 ------------------------------*/
 body.page-node-13 #extra_info {display: inline-block;margin-left: 20%; clear: left;position: absolute;text-align: right;}
