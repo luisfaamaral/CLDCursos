@@ -75,7 +75,6 @@ div#block-user-login form#user-login-form div.form-item { margin-bottom:0px; dis
 div#block-user-login form#user-login-form div.item-list { display: block;font-size: 15px; }
 div#block-user-login form#user-login-form div.item-list ul { display: block;float: left; }
 div#block-user-login form#user-login-form div.item-list ul li { display: inline-block;float: left;list-style: none outside none;margin-left: 5px; }
-div#block-user-login form#user-login-form div.item-list ul li.first { display: none; }
 div#block-user-login form#user-login-form div#edit-actions input { margin-left: -15px;margin-top: 33px; }
 
 /* Contato - Page
