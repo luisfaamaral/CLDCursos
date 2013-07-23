@@ -118,6 +118,6 @@ jQuery(document).ready(function() {
 
 })
 
-function showSignUpBlokc () {
+function showSignUpBlock () {
   alert("here");
 }
