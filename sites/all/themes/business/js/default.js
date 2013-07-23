@@ -117,3 +117,7 @@ jQuery(document).ready(function() {
   })
 
 })
+
+function showSignUpBlokc () {
+  alert("here");
+}
