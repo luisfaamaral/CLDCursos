@@ -97,7 +97,7 @@ div#block-block-9 div#sign-up-block div#edit-account input { width: 200px; margi
 div#block-block-9 div#sign-up-block div#edit-account label { text-align: center; }
 div#block-block-9 div#sign-up-block .description { display: none;}
 div#block-block-9 div.password-strength, div#block-block-9 div.password-confirm {display: none;}
-body.front div#block-block-9 .password-parent { width:100%; }
+body.front div#block-block-9 .password-parent, body.front div#block-block-9 .confirm-parent, { width:100%; }
 
 /* Contato - Page
 ------------------------------*/
