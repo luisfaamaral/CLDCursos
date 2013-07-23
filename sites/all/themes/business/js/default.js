@@ -119,5 +119,6 @@ jQuery(document).ready(function() {
 })
 
 function showSignUpBlock () {
-  alert("here");
+  jQuery('div#block-block-9 a.showBlock').hide();
+  jQuery('div#block-block-9 div#sign-up-block').show();
 }
