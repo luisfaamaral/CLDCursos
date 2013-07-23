@@ -92,8 +92,9 @@ div#block-edit-edit h2 { display:none; }
 div#block-block-9 { padding: 1px 10px 15px; }
 div#block-block-9 h2 { text-transform: none; }
 div#block-block-9 div.content a { display: block;background:#2e70b1;border:1px solid #2e70b1; moz-transition: all 0.2s ease-in-out 0s;border-radius: 5px;cursor: pointer;color: #fff;padding: 4px 6px;text-shadow: 1px 1px 1px #300033;margin-right: 4px;margin-bottom: 5px;font-weight: bold;margin-top: 30px;text-align: center; }
-div#block-block-9 div#sign-up-block div#edit-account input.username, div#block-block-9 div#sign-up-block div#edit-account input#edit-mail { width: 80%; }
+div#block-block-9 div#sign-up-block div#edit-account input { width: 200px; }
 div#block-block-9 div#sign-up-block .description { display: none;}
+div#block-block-9 div.password-strength-text, div#block-block-9 div.password-confirm {display: none;}
 
 /* Contato - Page
 ------------------------------*/
