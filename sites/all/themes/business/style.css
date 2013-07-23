@@ -87,6 +87,11 @@ div.password-suggestions { display: none; }
 ------------------------------*/
 div#block-edit-edit h2 { display:none; }
 
+/* SIgn up Prize Blockt
+------------------------------*/
+div#block-block-9 { padding: 1px 10px 15px; }
+div#block-block-9 h2 { text-transform: none; }
+
 /* Contato - Page
 ------------------------------*/
 body.page-node-13 #extra_info {display: inline-block;margin-left: 20%; clear: left;position: absolute;text-align: right;}
