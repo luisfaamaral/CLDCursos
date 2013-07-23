@@ -81,7 +81,7 @@ div#block-user-login form#user-login-form div#edit-actions input { margin-left: 
 
 /* Cadastrar
 ------------------------------*/
-div.password-suggestions { display: none; }
+div.password-suggestions { display: none;}
 
 /* Inline edit
 ------------------------------*/
