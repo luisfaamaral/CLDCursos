@@ -2,6 +2,7 @@
     font-family: myFutura;
     src: url("fonts/futura_medium_bt.ttf"); }
 
+form.node-mailing_users-form  div.vertical-tabs { display: none; }
 .form-submit { background: #77a9c5!important; border-color: #77a9c5!important; }
 
 div#main-menu ul li ul.show {background: none repeat scroll 0% 0% white; top: 48px!important; width: 800px!important; height: 200px!important;}
