@@ -33,6 +33,11 @@ form#webform-client-form-13 textarea#edit-submitted-conteudo {width: 100%;}
 form#webform-client-form-13 div.grippie {width: 100%;}
 form#webform-client-form-13 .form-item, form#webform-client-form-13 .form-actions{margin: 0 0 0 3px;}
 
+/* Mailing Page
+------------------------------*/
+div.view-mailing-users table th.views-field-title { width: 100px; }
+div.view-mailing-users table td { font-size: 12px; }
+
 /* Patrocinio Footer
 ------------------------------*/
 div#block-views-patrocinio-block {margin: 10px; background: none;}
