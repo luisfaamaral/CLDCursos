@@ -648,7 +648,7 @@ function _content_access_remove_acls($type) {
 }
 
 function send_email_interesse () {
-  $data = array("1", "2", "3", "4");
+  $data = array(arg(1), arg(2));
   
   return drupal_json_output($data);
 }

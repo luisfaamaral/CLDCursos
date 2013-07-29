@@ -123,6 +123,9 @@ jQuery(document).ready(function() {
 	  jQuery.ajax({
 		  url: Drupal.settings.basePath + 'mostrar_interesse',
 		  dataType: 'json',
+		  data: {
+			body_class: body_class  
+		  },
 		  type: 'POST',
 		  success: function(msg) { 
 		    alert('funcionou');
