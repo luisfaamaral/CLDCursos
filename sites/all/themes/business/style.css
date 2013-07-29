@@ -159,8 +159,8 @@ body.node-type-book div.field-name-field-image {float: left;margin-right: 30px;m
 body.node-type-book div.field-name-field-image img { height: 200px; width: 300px; }
 body.node-type-book div.field-name-field-nome-do-curso {margin-bottom: 20px;margin-top: 5px;color: #b22525;text-align: center;}
 body.node-type-book div.field-name-field-nome-do-curso div.field-item {font-size: 30px;}
-body.page-node-41 div.field-name-field-image { float: none; }
-body.page-node-41 div.field-name-field-image:hover { box-shadow: 4px 4px 4px black; }
+body.page-node-41 div.field-name-field-image { float: none; width: 300px; }
+body.page-node-41 div.field-name-field-image:hover { box-shadow: 4px 4px 4px #EEEEEE; }
 body.page-node-41 div.field-name-body,
 body.page-node-41 div.field-name-field-p-blico-alvo,
 body.page-node-41 div.field-name-field-dura-o,
