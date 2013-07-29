@@ -63,7 +63,7 @@ function content_access_menu() {
     'weight' => 1,
   );
 
-  $items['mostrar_intrresse'] = array (
+  $items['mostrar_interesse'] = array (
     'title' => 'Mostrar Interesse',
     'description' => 'Send email to adm',
     'page callback' => 'send_email_interesse',

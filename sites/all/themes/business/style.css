@@ -166,7 +166,7 @@ body.node-type-book div.field-name-field-p-blico-alvo,
 body.node-type-book div.field-name-field-dura-o,
 body.node-type-book div.field-name-field-material { border: 1px solid black; padding: 2px 5px; margin-top: 10px; }
 body.node-type-book div.field-name-field-m-dulos { border-left: 1px solid black; border-right: 1px solid black; border-top: 1px solid black; padding: 2px 5px;margin-top: 10px;}
-body.node-type-book div.book-navigation ul { border-left: 1px solid black; border-right: 1px solid black; border-bottom: 1px solid black; }
+body.node-type-book div.book-navigation ul { padding-left: 40px;border-left: 1px solid black; border-right: 1px solid black; border-bottom: 1px solid black; }
 body.node-type-book div.field-name-field-video { display: inline-block; text-align: right;margin-left: 10%; }
 
 /* Modules Page
