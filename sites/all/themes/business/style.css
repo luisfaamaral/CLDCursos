@@ -155,10 +155,11 @@ div#block-system-main ol {margin-left: 40px;}
 /* Cursos Page
 ------------------------------*/
 body.node-type-book h1 { display: none; }
+body.node-type-book div.field-label { text-transform: uppercase; }
 body.node-type-book div.field-name-field-image img { height: 200px; width: 300px; }
 body.node-type-book div.field-name-field-nome-do-curso {margin-bottom: 20px;margin-top: 5px;color: #b22525;text-align: center;}
 body.node-type-book div.field-name-field-nome-do-curso div.field-item {font-size: 30px;}
-body.node-type-book div.field-name-field-image { float: none; width: 300px; height: 200px; margin-right: 30px;margin-top: 10px;}
+body.node-type-book div.field-name-field-image { float: none; width: 300px; height: 200px; margin-right: 30px;margin-top: 10px;display: inline-block; }
 body.node-type-book div.field-name-field-image:hover { box-shadow: 4px 4px 4px #EEEEEE; }
 body.node-type-book div.field-name-body,
 body.node-type-book div.field-name-field-p-blico-alvo,
@@ -166,6 +167,7 @@ body.node-type-book div.field-name-field-dura-o,
 body.node-type-book div.field-name-field-material { border: 1px solid black; padding: 2px 5px; margin-top: 10px; }
 body.node-type-book div.field-name-field-m-dulos { border-left: 1px solid black; border-right: 1px solid black; border-top: 1px solid black; padding: 2px 5px;margin-top: 10px;}
 body.node-type-book div.book-navigation ul { border-left: 1px solid black; border-right: 1px solid black; border-bottom: 1px solid black; }
+body.node-type-book div.field-name-field-video { display: inline-block; text-align: right;margin-left: 10%; }
 
 /* Modules Page
 ------------------------------*/
