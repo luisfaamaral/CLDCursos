@@ -64,7 +64,7 @@ function content_access_menu() {
   );
 
   $items['mostrar_intrresse'] = array (
-    'title' => Mostrar Interesse',
+    'title' => 'Mostrar Interesse',
     'description' => 'Send email to adm',
     'page callback' => 'send_email_interesse',
     'access arguments' => array('access content'),
