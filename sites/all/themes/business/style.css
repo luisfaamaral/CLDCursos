@@ -177,6 +177,11 @@ body.node-type-modules div.node-modules div.field-name-field-short-name {font-si
 body.node-type-modules h1.page-title {margin: 10px;}
 div.book-navigation a.page-up { display: none; }
 
+/* Mostrar interesse
+------------------------------*/
+div#block-block-10 h2 { text-transform: uppercase; }
+div#block-block-10 div.content { text-align: center; }
+
 /* Cursos menu
 ------------------------------*/
 div#block-block-3 {display: block;float: left;width: 100%;margin-top: 10px;border-top: 1px dotted #bbb;text-transform: uppercase;}

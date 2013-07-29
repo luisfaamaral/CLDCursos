@@ -116,6 +116,11 @@ jQuery(document).ready(function() {
     jQuery('form#views-exposed-form-show-all-courses-block input#edit-submit-show-all-courses').click()
   })
 
+  // Mostrar interesse
+  jQuery('a.mostrar_interesse').click(function() {
+	  alert('here');
+  });
+  
 })
 
 function showSignUpBlock () {
