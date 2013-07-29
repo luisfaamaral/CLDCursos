@@ -63,6 +63,14 @@ function content_access_menu() {
     'weight' => 1,
   );
 
+  $items['mostrar_intrresse'] = array (
+    'title' => Mostrar Interesse',
+    'description' => 'Send email to adm',
+    'page callback' => 'send_email_interesse',
+    'access arguments' => array('access content'),
+    'type' => MENU_CALLBACK,
+  );
+  
   return $items;
 }
 
@@ -637,4 +645,10 @@ function _content_access_remove_acls($type) {
   foreach ($result as $node) {
     acl_node_clear_acls($node->nid, 'content_access');
   }
+}
+
+function send_email_interesse () {
+  $data = array("1", "2", "3", "4");
+  
+  return drupal_json_output($data);
 }
