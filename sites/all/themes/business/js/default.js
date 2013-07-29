@@ -118,7 +118,16 @@ jQuery(document).ready(function() {
 
   // Mostrar interesse
   jQuery('a.mostrar_interesse').click(function() {
-	  alert('here');
+	  var body_class = jQuery('body');
+	  alert(Drupal.settings.basePath + 'mostrar_intrresse');
+	  jQuery.ajax({
+		  url: Drupal.settings.basePath + 'mostrar_intrresse',
+		  dataType: 'json'
+		  type: 'POST',
+		  success: function(msg) { 
+		    alert('funcionou');
+		  } 
+	  });
   });
   
 })
