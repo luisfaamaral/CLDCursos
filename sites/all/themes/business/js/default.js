@@ -69,9 +69,9 @@ jQuery(document).ready(function() {
     // Mostrar interesse
   jQuery('a.mostrar_interesse').click(function() {
     if (jQuery('div#block-views-mostrar-interesse-block-block div.view-content div.content').is(':visible')) {
-    	jQuery(this).hide()
+    	jQuery('div#block-views-mostrar-interesse-block-block div.view-content div.content').hide()
     } else {
-    	jQuery(this).show()
+    	jQuery('div#block-views-mostrar-interesse-block-block div.view-content div.content').show()
     }
   });
 
