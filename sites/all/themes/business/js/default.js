@@ -68,13 +68,13 @@ jQuery(document).ready(function() {
 
   //contato
   if (jQuery('form#webform-client-form-13 input#edit-submitted-nome').val() = "") {
-	  jQuery(this).val('Nome')
+	  jQuery('form#webform-client-form-13 input#edit-submitted-nome').val('Nome')
   }
   if (jQuery('form#webform-client-form-13 input#edit-submitted-email').val() == "") {
-	  jQuery(this).val('Email')
+	  jQuery('form#webform-client-form-13 input#edit-submitted-email').val('Email')
   }
   if (jQuery('form#webform-client-form-13 input#edit-submitted-telefone').val() == "") {
-	  jQuery(this).val('Telefone')
+	  jQuery('form#webform-client-form-13 input#edit-submitted-telefone').val('Telefone')
   }
   
   jQuery('form#webform-client-form-13 input#edit-submitted-nome').focus(function() {
