@@ -379,7 +379,8 @@ div#block-views-mostrar-interesse-block-block a.mostrar_interesse {text-align: c
 div#block-views-mostrar-interesse-block-block  div.view-content h2 {display: none;}
 div#block-views-mostrar-interesse-block-block div.view-content,
 div#block-views-mostrar-interesse-block-block div.view-header { text-align: center; }
-div#block-views-mostrar-interesse-block-block input {width: 200px; }
+div#block-views-mostrar-interesse-block-block input {width: 300px; }
+div#block-views-mostrar-interesse-block-block div.view-content div.content {display: none;}
 
 /*Front-page Poll
 ------------------------------*/
