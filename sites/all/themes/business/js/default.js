@@ -67,13 +67,13 @@ jQuery(document).ready(function() {
   })
 
   //contato
-  if (jQuery('form#webform-client-form-13 input#edit-submitted-nome').html() = "") {
+  if (jQuery('form#webform-client-form-13 input#edit-submitted-nome').val() = "") {
 	  jQuery(this).val('Nome')
   }
-  if (jQuery('form#webform-client-form-13 input#edit-submitted-email').html() == "") {
+  if (jQuery('form#webform-client-form-13 input#edit-submitted-email').val() == "") {
 	  jQuery(this).val('Email')
   }
-  if (jQuery('form#webform-client-form-13 input#edit-submitted-telefone').html() == ""){
+  if (jQuery('form#webform-client-form-13 input#edit-submitted-telefone').val() == "") {
 	  jQuery(this).val('Telefone')
   }
   
