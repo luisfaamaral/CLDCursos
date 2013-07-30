@@ -376,8 +376,10 @@ div#block-block-5 h2 {display: none;}
 /* Demonstrar interesse
 ------------------------------*/
 div#block-views-mostrar-interesse-block-block a.mostrar_interesse {text-align: center; }
-div#block-views-mostrar-interesse-block-block div.view-content { text-align: center; }
-div#block-views-mostrar-interesse-block-block input {width: 100px; }
+div#block-views-mostrar-interesse-block-block  div.view-content h2 {display: none;}
+div#block-views-mostrar-interesse-block-block div.view-content,
+div#block-views-mostrar-interesse-block-block div.view-header { text-align: center; }
+div#block-views-mostrar-interesse-block-block input {width: 200px; }
 
 /*Front-page Poll
 ------------------------------*/
