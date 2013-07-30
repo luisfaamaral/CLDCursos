@@ -79,7 +79,7 @@ jQuery(document).ready(function() {
 	  jQuery('form#webform-client-form-68 input#edit-submitted-nome').val("Nome")
   }
   if (jQuery('form#webform-client-form-68 input#edit-submitted-email').val()=="") {
-	  jQuery('form#webform-client-form-68 input#edit-submitted-email').val("Email")
+	  jQuery('form#webform-client-form-68 input#edit-submitted-email').val("Email@email.com")
   }
   if (jQuery('form#webform-client-form-68 input#edit-submitted-telefone').val()=="") {
 	  jQuery('form#webform-client-form-68 input#edit-submitted-telefone').val("Telefone")
@@ -96,13 +96,13 @@ jQuery(document).ready(function() {
   })
 
   jQuery('form#webform-client-form-68 input#edit-submitted-email').focus(function() {
-    if (jQuery(this).val() == "Email") {
+    if (jQuery(this).val() == "Email@email.com") {
       jQuery(this).val('')
     }
   })
   jQuery('form#webform-client-form-68 input#edit-submitted-email').blur(function() {
     if (jQuery(this).val() == "") {
-      jQuery(this).val('Email')
+      jQuery(this).val('Email@email.com')
     }
   })
 
