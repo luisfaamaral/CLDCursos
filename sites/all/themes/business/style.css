@@ -335,6 +335,7 @@ div.footer-box:nth-child(1) {width: 32%;margin-left: 7%;}
 div.footer-box:nth-child(2) {width: 32%;margin-top: -13px;margin-left: 5px;float: right;}
 div.footer-box:nth-child(3) {width: 22%;float: right;margin-left: 5px; }
 div.content footer { position: absolute;right: 9%;width: 200px;margin-top: 100px; }
+.footer-box .field-item { font-size: 14px; }
 
 /* Ultimos Cursos
 /*-------------------------------------------*/
