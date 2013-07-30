@@ -88,6 +88,7 @@ div#block-user-login form#user-login-form div#edit-actions input { margin-left: 
 /* Cadastrar
 ------------------------------*/
 div.password-suggestions { display: none;}
+input#edit-field-user-telefone-und-0-value { width: 16em; }
 
 /* Inline edit
 ------------------------------*/
@@ -98,12 +99,6 @@ div#block-edit-edit h2 { display:none; }
 div#block-block-9 { padding: 1px 10px 15px; }
 div#block-block-9 h2 { text-transform: none; }
 div#block-block-9 div.content a { display: block;background:#2e70b1;border:1px solid #2e70b1; moz-transition: all 0.2s ease-in-out 0s;border-radius: 5px;cursor: pointer;color: #fff;padding: 4px 6px;text-shadow: 1px 1px 1px #300033;margin-right: 4px;margin-bottom: 5px;font-weight: bold;margin-top: 30px;text-align: center; }
-div#block-block-9 div#sign-up-block {display: none; }
-div#block-block-9 div#sign-up-block div#edit-account input { width: 200px; margin-left: 10%;}
-div#block-block-9 div#sign-up-block div#edit-account label { text-align: center; }
-div#block-block-9 div#sign-up-block .description { display: none;}
-div#block-block-9 div.password-strength, div#block-block-9 div.password-confirm {display: none;}
-body.front div#block-block-9 .password-parent, body.front div#block-block-9 .confirm-parent { width:100%; }
 
 /* Contato - Page
 ------------------------------*/
@@ -171,7 +166,8 @@ body.node-type-book div.field-name-field-video { display: inline-block; text-ali
 body.node-type-book div.field-name-body div.field-item,
 body.node-type-book div.field-name-field-p-blico-alvo div.field-item,
 body.node-type-book div.field-name-field-dura-o div.field-item,
-body.node-type-book div.field-name-field-material div.field-item { font-size: 14px; }
+body.node-type-book div.field-name-field-material div.field-item,
+body.node-type-book div.field-name-field-m-dulos div.field-item { font-size: 14px; }
 
 /* Modules Page
 ------------------------------*/
