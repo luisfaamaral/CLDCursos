@@ -67,6 +67,16 @@ jQuery(document).ready(function() {
   })
 
   //contato
+  if (jQuery('form#webform-client-form-13 input#edit-submitted-nome').html() = "") {
+	  jQuery(this).val('Nome')
+  }
+  if (jQuery('form#webform-client-form-13 input#edit-submitted-email').html() == "") {
+	  jQuery(this).val('Email')
+  }
+  if (jQuery('form#webform-client-form-13 input#edit-submitted-telefone').html() == ""){
+	  jQuery(this).val('Telefone')
+  }
+  
   jQuery('form#webform-client-form-13 input#edit-submitted-nome').focus(function() {
     if (jQuery(this).val() == "Nome") {
       jQuery(this).val('')
