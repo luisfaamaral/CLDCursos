@@ -375,7 +375,8 @@ div#block-block-5 h2 {display: none;}
 
 /* Demonstrar interesse
 ------------------------------*/
-div#block-views-mostrar-interesse-block-block a.mostrar_interesse {text-align: center; display: none;}
+div#block-views-mostrar-interesse-block-block a.mostrar_interesse {text-align: center; }
+div#block-views-mostrar-interesse-block-block  h2 {display: none;}
 div#block-views-mostrar-interesse-block-block div.view-content { text-align: center; }
 div#block-views-mostrar-interesse-block-block input {width: 16em; }
 
