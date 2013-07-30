@@ -381,6 +381,7 @@ div#block-views-mostrar-interesse-block-block div.view-content,
 div#block-views-mostrar-interesse-block-block div.view-header { text-align: center; }
 div#block-views-mostrar-interesse-block-block input {width: 200px; }
 div#block-views-mostrar-interesse-block-block div.view-content div.content {display: none;}
+div#block-views-mostrar-interesse-block-block h2 { text-transform: none; }
 
 /*Front-page Poll
 ------------------------------*/
