@@ -66,7 +66,15 @@ jQuery(document).ready(function() {
     }
   })
 
-  //interesse
+    // Mostrar interesse
+  jQuery('a.mostrar_interesse').click(function() {
+    if (jQuery('div#block-views-mostrar-interesse-block-block div.view-content div.content').is(':visible')) {
+    	jQuery(this).hide()
+    } else {
+    	jQuery(this).show()
+    }
+  });
+
   if (jQuery('form#webform-client-form-68 input#edit-submitted-nome').val()=="") {
 	  jQuery('form#webform-client-form-68 input#edit-submitted-nome').val("Nome")
   }
@@ -167,23 +175,6 @@ jQuery(document).ready(function() {
     }
     jQuery('form#views-exposed-form-show-all-courses-block input#edit-submit-show-all-courses').click()
   })
-
-  // Mostrar interesse
-  jQuery('a.mostrar_interesse').click(function() {
-	  var body_class = jQuery('body')
-	  
-	  jQuery.ajax({
-		  url: Drupal.settings.basePath + 'mostrar_interesse',
-		  dataType: 'json',
-		  data: {
-			body_class: body_class  
-		  },
-		  type: 'POST',
-		  success: function(msg) { 
-		    alert('funcionou');
-		  } 
-	  });
-  });
   
 })
 
