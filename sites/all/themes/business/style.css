@@ -38,6 +38,7 @@ form#webform-client-form-13 .form-item, form#webform-client-form-13 .form-action
 ------------------------------*/
 div.view-mailing-users table th.views-field-title { width: 100px; }
 div.view-mailing-users table td { font-size: 12px; }
+div.view-mailing-users div.field-item {font-size: 12px;}
 
 /* Patrocinio Footer
 ------------------------------*/
