@@ -172,6 +172,12 @@ body.node-type-book div.field-name-field-m-dulos div.field-item { font-size: 14p
 
 /* Modules Page
 ------------------------------*/
+div#modalContent span#modal-title { font-size: 21px; color: #b22525; border-bottom: 1px solid #EEE; padding-bottom: 10px; text-align: center; }
+div#modalContent div#modal-content form#webform-client-form-68 { text-align: center; }
+div#modalContent div#modal-content form#webform-client-form-68 input { width: 200px; }
+
+/* Modules Page
+------------------------------*/
 body.node-type-modules div.field-name-field-short-name div.field-item {color: #B22525;line-height: 1.2em;font-size: 35px;}
 body.node-type-modules div.field-name-body ul { margin: 20px; }
 body.node-type-modules div.node-modules div.field-name-field-short-name {font-size: 24px;line-height: 1.2em;}
@@ -180,7 +186,7 @@ div.book-navigation a.page-up { display: none; }
 
 /* Mostrar interesse
 ------------------------------*/
-div#block-block-10 h2 { text-transform: uppercase; }
+div#block-block-14 h2 { text-transform: uppercase; }
 div#block-block-10 div.content { text-align: center; }
 
 /* Cursos menu

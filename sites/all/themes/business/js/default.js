@@ -66,57 +66,6 @@ jQuery(document).ready(function() {
     }
   })
 
-    // Mostrar interesse
-  jQuery('a.mostrar_interesse').click(function() {
-    if (jQuery('div#block-views-mostrar-interesse-block-block div.view-content div.content').is(':visible')) {
-    	jQuery('div#block-views-mostrar-interesse-block-block div.view-content div.content').hide()
-    } else {
-    	jQuery('div#block-views-mostrar-interesse-block-block div.view-content div.content').show()
-    }
-  });
-
-  if (jQuery('form#webform-client-form-68 input#edit-submitted-nome').val()=="") {
-	  jQuery('form#webform-client-form-68 input#edit-submitted-nome').val("Nome")
-  }
-  if (jQuery('form#webform-client-form-68 input#edit-submitted-email').val()=="") {
-	  jQuery('form#webform-client-form-68 input#edit-submitted-email').val("Email@email.com")
-  }
-  if (jQuery('form#webform-client-form-68 input#edit-submitted-telefone').val()=="") {
-	  jQuery('form#webform-client-form-68 input#edit-submitted-telefone').val("Telefone")
-  }
-  jQuery('form#webform-client-form-68 input#edit-submitted-nome').focus(function() {
-    if (jQuery(this).val() == "Nome") {
-      jQuery(this).val('')
-    }
-  })
-  jQuery('form#webform-client-form-68 input#edit-submitted-nome').blur(function() {
-    if (jQuery(this).val() == "") {
-      jQuery(this).val('Nome')
-    }
-  })
-
-  jQuery('form#webform-client-form-68 input#edit-submitted-email').focus(function() {
-    if (jQuery(this).val() == "Email@email.com") {
-      jQuery(this).val('')
-    }
-  })
-  jQuery('form#webform-client-form-68 input#edit-submitted-email').blur(function() {
-    if (jQuery(this).val() == "") {
-      jQuery(this).val('Email@email.com')
-    }
-  })
-
-  jQuery('form#webform-client-form-68 input#edit-submitted-telefone').focus(function() {
-    if (jQuery(this).val() == "Telefone") {
-      jQuery(this).val('')
-    }
-  })
-  jQuery('form#webform-client-form-68 input#edit-submitted-telefone').blur(function() {
-    if (jQuery(this).val() == "") {
-      jQuery(this).val('Telefone')
-    }
-  })
-  
   //contato
   if (jQuery('form#webform-client-form-13 input#edit-submitted-nome').val()=="") {
 	  jQuery('form#webform-client-form-13 input#edit-submitted-nome').val("Nome")
