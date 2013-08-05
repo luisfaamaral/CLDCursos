@@ -180,7 +180,7 @@ div#modalContent div#modal-content form#webform-client-form-68 input { width: 20
 ------------------------------*/
 div#block-block-13 { padding: 2px 10px; }
 div#block-block-13 th.first { background: white; }
-div#block-block-13 th, div#block-block-13 td.first { background: #2E70B1; color: white;text-align: center;text-transform: uppercase;font-weight: normal; }
+div#block-block-13 th, div#block-block-13 td.hora { background: #2E70B1; color: white;text-align: center;text-transform: uppercase;font-weight: normal; }
 div#block-block-13 td.free { background: white; }
 div#block-block-13 td.notfree { background: black; }
 
