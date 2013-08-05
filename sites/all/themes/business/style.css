@@ -176,7 +176,11 @@ div#modalContent span#modal-title { display: inline-block;width: 90%;font-size: 
 div#modalContent div#modal-content form#webform-client-form-68 { text-align: center; }
 div#modalContent div#modal-content form#webform-client-form-68 input { width: 200px; }
 
-
+/* Grade de Horarios
+------------------------------*/
+div#block-block-13 { padding: 2px 10px; }
+div#block-block-13 th.first { background: white; }
+div#block-block-13 th { background: #2E70B1; color: white; text-tranform: uppercase;font-weight: normal; }
 
 /* Modules Page
 ------------------------------*/
