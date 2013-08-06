@@ -237,7 +237,7 @@ div#block-block-3 div.views-field-field-nome-do-curso { width: 80%; text-align: 
 div#block-block-3 div.views-field-field-nome-do-curso span { display: inline-block; width: 6%; vertical-align: top; }
 div#block-block-3 div.views-field-field-nome-do-curso div.field-content { display: inline-block; width: 91%; }
 div#block-block-3 div.views-field-title {display: inline-block; width: 30px; vertical-align: top; }
-
+div#block-block-3 .field-item { font-size: 14px; }
 /* Fan Page
 ------------------------------*/
 div#block-block-12 .u_0_3 { display: none; }
