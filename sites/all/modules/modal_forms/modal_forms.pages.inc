@@ -207,7 +207,7 @@ function modal_forms_comment_reply($js = NULL, $node, $pid = NULL) {
  *   A node object.
  */
 function modal_forms_view_webform($js = NULL, $node) {
-  $node->webform['components'][8]['value'] = str_replace("@cursos", "bla", $node->webform['components'][8]['value']);
+  $node->webform['components'][8]['value'] = str_replace("@curso", "bla", $node->webform['components'][8]['value']);
   var_dump($node->webform['components'][8]['value']);
   $output = array();
 
