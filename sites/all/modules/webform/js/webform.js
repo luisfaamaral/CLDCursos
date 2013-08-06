@@ -66,6 +66,8 @@ Drupal.webform.datepicker = function(context) {
         // jQuery UI Datepicker will read the input field and base its date off
         // of that, even though in our case the input field is a button.
         $(input).val(year + '-' + month + '-' + day);
+        
+        alert('here');
       }
     });
 

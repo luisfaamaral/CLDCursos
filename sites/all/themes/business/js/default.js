@@ -31,11 +31,6 @@ jQuery(document).ready(function() {
     }
   })
 
-  // modal mostrar interesse
-  jQuery('input#edit-submitted-nome').focus(function() {
-	  alert('here');
-  })
-  
   // remove the course link
   jQuery('div#block-block-3 ul.menu li:nth-child(2)').click(function() {
     jQuery('#cursos').toggle()
