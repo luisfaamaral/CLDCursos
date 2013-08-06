@@ -257,6 +257,9 @@ function modal_forms_view_webform($js = NULL, $node) {
     }
   }
 
+  $output = str_replace("@curso", "lala", $output);
+  var_dump($output);
+
   print ajax_render($output);
 }
 
@@ -274,7 +277,5 @@ function modal_forms_dismiss($js = NULL) {
 
   $output = array(ctools_modal_command_dismiss());
 
-  $output = str_replace("@curso", "lala", $output);
-var_dump($output);
   print ajax_render($output);
 }
