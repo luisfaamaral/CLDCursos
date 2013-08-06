@@ -354,7 +354,7 @@ div.content footer { position: absolute;right: 9%;width: 200px;margin-top: 100px
 
 /* Servicos
 /*-------------------------------------------*/
-div#block-block-11 ul { margin-left: 22px;list-sltyle: none; }
+div#block-block-11 ul { margin-left: 22px;list-style: none; }
 div#block-block-11 ul li a { border: medium none;color: white;font-size: 16px;font-weight: bold;margin: 0;padding: 0;text-align: left;}
 div#block-block-11 h2 { display: none; }
 
