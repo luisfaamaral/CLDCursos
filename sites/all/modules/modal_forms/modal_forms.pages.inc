@@ -240,8 +240,6 @@ function modal_forms_view_webform($js = NULL, $node) {
   $form_state['build_info']['args'] = array($node, FALSE);
   $output = ctools_modal_form_wrapper('webform_client_form_' . $node->nid, $form_state);
 
-  $output = str_replace("@curso", "lala", $output);
-
   if (!empty($form_state['executed'])) {
     if (!isset($form_state['storage'])) {
       ctools_add_js('ajax-responder');
@@ -276,5 +274,6 @@ function modal_forms_dismiss($js = NULL) {
 
   $output = array(ctools_modal_command_dismiss());
 
+  $output = str_replace("@curso", "lala", $output);
   print ajax_render($output);
 }
