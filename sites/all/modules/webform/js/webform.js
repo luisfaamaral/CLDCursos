@@ -75,6 +75,4 @@
 	    });
 	  });
 	}
-
-	alert('here');
 })(jQuery);
