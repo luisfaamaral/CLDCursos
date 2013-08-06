@@ -240,7 +240,7 @@ function modal_forms_view_webform($js = NULL, $node) {
   $form_state['build_info']['args'] = array($node, FALSE);
   $output = ctools_modal_form_wrapper('webform_client_form_' . $node->nid, $form_state);
 
-  var_dump($output);
+  $output = str_replace("@curso", "lala", $output);
 
   if (!empty($form_state['executed'])) {
     if (!isset($form_state['storage'])) {
