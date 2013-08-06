@@ -207,7 +207,13 @@ function modal_forms_comment_reply($js = NULL, $node, $pid = NULL) {
  *   A node object.
  */
 function modal_forms_view_webform($js = NULL, $node, $curso) {
-  var_dump($curso);
+  $book = book_link_load($id[1]);
+  $nid = $book['nid'];
+
+  $node = node_load($nid);
+  $title = $node->field_nome_do_curso['und'][0]['value'];
+  $v = node->webform['components'][8]['value'];
+  $node->webform['components'][8]['value'] = str_replace("@curso", $title", $v);
 
   $output = array();
 
