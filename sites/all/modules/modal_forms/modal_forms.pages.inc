@@ -241,7 +241,6 @@ function modal_forms_view_webform($js = NULL, $node) {
   $output = ctools_modal_form_wrapper('webform_client_form_' . $node->nid, $form_state);
 
   $output = str_replace("@curso", "lala", $output);
-  echo ($output);
 
   if (!empty($form_state['executed'])) {
     if (!isset($form_state['storage'])) {
