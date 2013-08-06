@@ -8,6 +8,7 @@
 <!--[if lt IE 9]><script src="<?php print base_path() . drupal_get_path('theme', 'business') . '/js/html5.js'; ?>"></script><![endif]-->
 </head>
 <body class="<?php print $classes; ?>"<?php print $attributes; ?>>
+  <div class="fb-follow" data-href="https://www.facebook.com/zuck" data-width="450" data-show-faces="true"></div>
   <?php print $page_top; ?>
   <?php print $page; ?>
   <?php print $page_bottom; ?>
