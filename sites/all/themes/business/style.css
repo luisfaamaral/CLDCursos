@@ -238,6 +238,10 @@ div#block-block-3 div.views-field-field-nome-do-curso span { display: inline-blo
 div#block-block-3 div.views-field-field-nome-do-curso div.field-content { display: inline-block; width: 91%; }
 div#block-block-3 div.views-field-title {display: inline-block; width: 30px; vertical-align: top; }
 
+/* Fan Page
+------------------------------*/
+div#block-block-12 .u_0_3 { display: none; }
+
 /* Como chegar - Page
 ------------------------------*/
 .google_map_field_display {height: 350px;width: 750px;}
