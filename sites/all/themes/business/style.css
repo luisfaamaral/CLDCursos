@@ -52,6 +52,7 @@ div#block-views-patrocinio-block img { width: 150px; height: 77px; }
 /* Lista Cursos Page
 ------------------------------*/
 div.view-todos-cursos-page div.views-field { display: inline-block; }
+div.view-todos-cursos-page div.field-item { font-size: 14px; }
 div.view-todos-cursos-page div.views-field-field-nome-do-curso span, div.view-todos-cursos-page div.views-field-field-nome-do-curso div { display: inline-block; font-size: 21px; color: #2E70B1;}
 div.view-todos-cursos-page div.views-field-field-nome-do-curso { width: 76%; margin-left: -300px;margin-bottom: 10px;}
 div.view-todos-cursos-page div.views-field-title a { padding-right: 300px; position: relative;}
