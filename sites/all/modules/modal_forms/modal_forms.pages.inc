@@ -243,6 +243,8 @@ function modal_forms_view_webform($js = NULL, $node) {
   if (!empty($form_state['executed'])) {
     if (!isset($form_state['storage'])) {
       ctools_add_js('ajax-responder');
+      $output = str_replace("@curso", "lala", $output);
+      var_dump($text);
       $output[] = ctools_modal_command_display($title, $text . ctools_ajax_text_button(t('Close'), 'modal_forms/nojs/dismiss', t('Close')));
       // @todo Add support for redirect. Require some magic.
       // Copied from webform_client_form_submit().
@@ -256,9 +258,6 @@ function modal_forms_view_webform($js = NULL, $node) {
       $output = ctools_modal_form_wrapper('webform_client_form_' . $node->nid, $form_state);
     }
   }
-
-  $output = str_replace("@curso", "lala", $output);
-  var_dump($output);
 
   print ajax_render($output);
 }
