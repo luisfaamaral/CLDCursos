@@ -173,8 +173,10 @@ body.node-type-book div.field-name-field-m-dulos div.field-item { font-size: 14p
 /* Modal mostrar interesse
 ------------------------------*/
 div#modalContent span#modal-title { display: inline-block;width: 90%;font-size: 21px; color: #b22525; border-bottom: 1px solid #EEE; padding-bottom: 10px; text-align: center; }
+div#modalContent div#modal-content { background: url(images/bg_modal.jpg) }
 div#modalContent div#modal-content form#webform-client-form-68 { text-align: center; }
 div#modalContent div#modal-content form#webform-client-form-68 input { width: 200px; }
+
 
 /* Grade de Horarios
 ------------------------------*/
