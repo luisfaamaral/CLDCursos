@@ -352,6 +352,12 @@ div.footer-box:nth-child(3) {width: 26%;margin-left: 5px; }
 div.content footer { position: absolute;right: 9%;width: 200px;margin-top: 100px; }
 .footer-box .field-item { font-size: 14px; }
 
+/* Servicos
+/*-------------------------------------------*/
+div#block-block-11 ul { margin-left: 22px; }
+div#block-block-11 ul li { border: medium none;color: white;font-size: 16px;font-weight: bold;margin: 0;padding: 0;text-align: left;}
+div#block-block-11 h2 { display: none; }
+
 /* Ultimos Cursos
 /*-------------------------------------------*/
 div#block-views-ultimos-cursos-block .views-field, div#block-views-ultimos-cursos-block .field-content { display: inline-block; color: white; font-size: 12px; }
