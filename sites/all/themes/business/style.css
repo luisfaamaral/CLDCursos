@@ -179,7 +179,7 @@ div#modalContent div#modal-content form#webform-client-form-68 input { width: 20
 div#modalContent div#modal-content form#webform-client-form-68 div#webform-component-dia label,
 div#modalContent div#modal-content form#webform-client-form-68 div#webform-component-horario label { width: 300px; }
 div#modalContent div#modal-content form#webform-client-form-68 label { display: inline-block;text-align: right;width: 100px; }
-div#modalContent div#modal-content form#webform-client-form-68 div.form-actions input { float: right;margin-right: 10%; }
+div#modalContent div#modal-content form#webform-client-form-68 input.form-submit { float: right;margin-right: 10%; }
 
 /* Grade de Horarios
 ------------------------------*/
