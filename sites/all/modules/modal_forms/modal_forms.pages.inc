@@ -207,7 +207,7 @@ function modal_forms_comment_reply($js = NULL, $node, $pid = NULL) {
  *   A node object.
  */
 function modal_forms_view_webform($js = NULL, $node, $curso) {
-  $book = book_link_load($id[1]);
+  $book = book_link_load($curso);
   $nid = $book['nid'];
 
   $n = node_load($nid);
