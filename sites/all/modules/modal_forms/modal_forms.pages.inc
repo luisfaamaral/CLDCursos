@@ -213,6 +213,7 @@ function modal_forms_view_webform($js = NULL, $node, $curso) {
   $n = node_load($nid);
   $title = $n->field_nome_do_curso['und'][0]['value'];
   $v = $node->webform['components'][8]['value'];
+  var_dump($v . "-" . $title);
   $node->webform['components'][8]['value'] = str_replace("@curso", $title, $v);
 
   $output = array();
