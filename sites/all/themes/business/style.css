@@ -176,7 +176,9 @@ div#modalContent span#modal-title { display: inline-block;width: 90%;font-size: 
 div#modalContent div#modal-content { background: url("images/modal_bg.jpg") no-repeat scroll -75px 208px transparent }
 div#modalContent div#modal-content form#webform-client-form-68 { text-align: center; }
 div#modalContent div#modal-content form#webform-client-form-68 input { width: 200px; }
-
+div#modalContent div#modal-content form#webform-client-form-68 div#webform-component-dia label,
+div#modalContent div#modal-content form#webform-client-form-68 div#webform-component-horario label { width: 300px; }
+div#modalContent div#modal-content form#webform-client-form-68 label { display: inline-block;text-align: right;width: 100px; }
 
 /* Grade de Horarios
 ------------------------------*/
