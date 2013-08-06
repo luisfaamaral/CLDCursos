@@ -42,7 +42,7 @@ div.view-mailing-users div.field-item {font-size: 12px;}
 
 /* Patrocinio Footer
 ------------------------------*/
-div#block-views-patrocinio-block {margin: 10px; background: none;}
+div#block-views-patrocinio-block { background: none;}
 div#block-views-patrocinio-block table { background: none; border: none; }
 div#block-views-patrocinio-block table td { background: none; border: none; display: inline-block; text-align: center;}
 div#block-views-patrocinio-block a, div#block-views-patrocinio-block span { color: white;font-size: 12px; }
