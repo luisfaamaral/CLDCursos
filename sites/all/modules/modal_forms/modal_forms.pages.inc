@@ -208,7 +208,7 @@ function modal_forms_comment_reply($js = NULL, $node, $pid = NULL) {
  */
 function modal_forms_view_webform($js = NULL, $node) {
   
-  var_dump($node);
+  var_dump($node->components);
   $output = array();
 
   // Fall back if $js is not set.
