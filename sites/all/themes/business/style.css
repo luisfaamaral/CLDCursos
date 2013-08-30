@@ -44,7 +44,7 @@ div.view-mailing-users div.field-item {font-size: 12px;}
 ------------------------------*/
 div#block-views-patrocinio-block { background: none;}
 div#block-views-patrocinio-block table { background: none; border: none; }
-div#block-views-patrocinio-block table td { background: none; border: none; display: inline-block; text-align: center; }
+div#block-views-patrocinio-block table td { background: none; border: none; display: inline-block; text-align: center; margin-right: 10px; }
 div#block-views-patrocinio-block a, div#block-views-patrocinio-block span { color: white;font-size: 12px; }
 div#block-views-patrocinio-block div.field-content { background: white; }
 div#block-views-patrocinio-block img { width: 110px; height: 75px; }
