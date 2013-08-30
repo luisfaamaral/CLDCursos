@@ -91,7 +91,7 @@ div#block-user-login form#user-login-form div#edit-actions input { margin-left: 
 ------------------------------*/
 div.password-suggestions { display: none;}
 input#edit-field-user-telefone-und-0-value { width: 16em; }
-div.captcha div.form-item-captcha-response, div.captcha .description {display: none;}
+div.captcha div.form-item-captcha-response label, div.captcha .description {display: none;}
 div.captcha input { width: 180px; }
 
 /* Inline edit
