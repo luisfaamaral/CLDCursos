@@ -69,6 +69,7 @@ form#views-exposed-form-todos-cursos-page-page div.views-widget { display: inlin
 
 /* Quiz
 ------------------------------*/
+div#block-views-tabela-quiz-block h2 { display: none; }
 div.view-tabela-quiz table { background: white;border: 1px solid #bbbbbb; margin: auto;width: 700px;}
 div.view-tabela-quiz th, div.view-tabela-quiz tr, div.view-tabela-quiz td { vertical-align: middle; }
 div.view-tabela-quiz th { background: #2E70B1;color: white;text-align: center;text-transform: uppercase;font-weight: normal }
@@ -373,8 +374,8 @@ a:focus > .sf-sub-indicator, a:hover > .sf-sub-indicator, a:active > .sf-sub-ind
 #footer-saran h2 { margin: 0; border: none; padding: 0; text-align: left; color: white; font-size: 16px; font-weight: bold; }
 #footer-saran a, .region-footer span { color: white; font-size: 12px; }
 div.footer-box:nth-child(1) {width: 30%;margin-left: 7%;}
-div.footer-box:nth-child(2) {width: 30%;margin-left: 5px;}
-div.footer-box:nth-child(3) {width: 26%;margin-left: 5px; }
+div.footer-box:nth-child(2) {width: 20%;margin-left: 5px;}
+div.footer-box:nth-child(3) {width: 37%;margin-left: 5px; }
 div.content footer { position: absolute;right: 9%;width: 200px;margin-top: 100px; }
 .footer-box .field-item { font-size: 14px; }
 
