@@ -69,10 +69,16 @@ form#views-exposed-form-todos-cursos-page-page div.views-widget { display: inlin
 
 /* Quiz
 ------------------------------*/
-div.view-tabela-quiz table { background: white;border: 1px solid #bbbbbb; }
+div.view-tabela-quiz table { background: white;border: 1px solid #bbbbbb; margin: auto;width: 700px;}
 div.view-tabela-quiz th, div.view-tabela-quiz tr, div.view-tabela-quiz td { vertical-align: middle; }
 div.view-tabela-quiz th { background: #2E70B1;color: white;text-align: center;text-transform: uppercase;font-weight: normal }
-div.view-tabela-quiz td { color: black; }
+div.view-tabela-quiz td { color: black; background: white;text-align: center;}
+div.view-tabela-quiz td.views-field-title { width: 250px; }
+div.view-tabela-quiz td.views-field-field-jogos { width: 60px; }
+div.view-tabela-quiz td.views-field-field-vit-rias { width: 70px; }
+div.view-tabela-quiz td.views-field-field-quest-es-respondidas { width: 140px }
+div.view-tabela-quiz td.views-field-field-derrotas { width: 60px; }
+div.view-tabela-quiz td.views-field-field-pontos { width: 60px; }
 
 /* Login Block
 ------------------------------*/
