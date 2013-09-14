@@ -373,9 +373,9 @@ a:focus > .sf-sub-indicator, a:hover > .sf-sub-indicator, a:active > .sf-sub-ind
 #footer-saran { padding: 10px 20px; background:url(images/footer.png); }
 #footer-saran h2 { margin: 0; border: none; padding: 0; text-align: left; color: white; font-size: 16px; font-weight: bold; }
 #footer-saran a, .region-footer span { color: white; font-size: 12px; }
-div.footer-box:nth-child(1) {width: 30%;margin-left: 7%;}
-div.footer-box:nth-child(2) {width: 20%;margin-left: 5px;}
-div.footer-box:nth-child(3) {width: 37%;margin-left: 5px; }
+div.footer-box:nth-child(1) {width: 28%;margin-left: 7%;}
+div.footer-box:nth-child(2) {width: 25%;margin-left: 5px;}
+div.footer-box:nth-child(3) {width: 34%;margin-left: 5px; }
 div.content footer { position: absolute;right: 9%;width: 200px;margin-top: 100px; }
 .footer-box .field-item { font-size: 14px; }
 
