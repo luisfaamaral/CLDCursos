@@ -81,9 +81,10 @@ div.view-tabela-quiz td.views-field-field-quest-es-respondidas { width: 140px }
 div.view-tabela-quiz td.views-field-field-derrotas { width: 60px; }
 div.view-tabela-quiz td.views-field-field-pontos { width: 60px; }
 div#block-block-15 h2 { display: none; }
-div#block-block-15 h3 {text-transform: none;color: #B22525;}
+div#block-block-15 h3 { text-transform: none;color: #B22525;}
 div#block-block-15 img { width: 80%; }
 div#block-block-15 { margin-top: 40px; text-align: center;}
+#post-content h1 { text-transform: none; }
 
 /* Login Block
 ------------------------------*/
