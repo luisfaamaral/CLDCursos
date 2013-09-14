@@ -67,6 +67,13 @@ form#views-exposed-form-todos-cursos-page-page div#edit-title-wrapper { float: r
 form#views-exposed-form-todos-cursos-page-page label { display: inline-block; }
 form#views-exposed-form-todos-cursos-page-page div.views-widget { display: inline-block; margin-left: 5px; }
 
+/* Quiz
+------------------------------*/
+div.view-tabela-quiz table { background: white;border: 1px solid #bbbbbb; }
+div.view-tabela-quiz th, div.view-tabela-quiz tr, div.view-tabela-quiz td { vertical-align: middle; }
+div.view-tabela-quiz th { background: #2E70B1;color: white;text-align: center;text-transform: uppercase;font-weight: normal }
+div.view-tabela-quiz td { color: black; }
+
 /* Login Block
 ------------------------------*/
 div#block-user-login { float: right; width: 30%; }
