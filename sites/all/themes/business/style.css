@@ -171,6 +171,11 @@ div.view-todas-noticias li {list-style: -moz-lao outside none;}
 div#block-system-main li {list-style: -moz-lao outside none;}
 div#block-system-main ol {margin-left: 40px;}
 
+/* QUIZ Galery
+------------------------------*/
+div#view-quiz_galery-page { margin: auto; }
+div#view-quiz_galery-page .jb-caption a { margin-left: 42%; }
+
 /* Cursos Page
 ------------------------------*/
 body.node-type-book h1 { display: none; }
