@@ -94,7 +94,8 @@ body.page-node-76 div#tabs span#ranking { margin-left: 134px; }
 
 div#block-views-jogos-relizados-block, div#block-views-jogos-marcados-block { display: none;margin-left: 50px; }
 div#block-views-jogos-relizados-block div.views-field-field-week, div#block-views-jogos-marcados-block div.views-field-field-week { display: inline-block;float: left;margin-right: 10px; }
-div#block-views-jogos-relizados-block div.views-field-title, div#block-views-jogos-marcados-block div.views-field-title { margin-left: 5px; }
+div#block-views-jogos-relizados-block span.views-field-title, div#block-views-jogos-marcados-block span.views-field-title { margin-left: 5px; }
+div#block-views-jogos-relizados-block ul li, div#block-views-jogos-marcados-block ul li {list-style: none outside none;}
 
 /* Login Block
 ------------------------------*/
