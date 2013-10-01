@@ -87,7 +87,8 @@ div#block-block-15 img { width: 80%; }
 div#block-block-15 { margin-top: 40px; text-align: center;}
 #post-content h1 { text-transform: none; }
 
-div#block-views-quiz-galery-block-1 { margin-left: 35px;}
+div#block-views-tabela-quiz-block { display: none; }
+div#block-views-quiz-galery-block-1 { margin-left: 50px;}
 body.page-node-76 div#tabs { margin-bottom: 10px;background:#EEEEEE;margin-left: 56px;width: 700px; }
 body.page-node-76 div#tabs span { padding: 10px;display: inline-block;cursor: pointer;margin: 0 2px; }
 body.page-node-76 div#tabs span#ranking { margin-left: 134px; }
