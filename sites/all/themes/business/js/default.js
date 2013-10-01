@@ -131,14 +131,14 @@ jQuery(document).ready(function() {
   }
   
   jQuery('#tabs #ranking').click(function() {
-	  if (!('#block-views-tabela-quiz-block').is(':visible')) {
+	  if (!jQuery('#block-views-tabela-quiz-block').is(':visible')) {
 	    jQuery('.active').hide()
 	    jQuery('#block-views-tabela-quiz-block').addClass('active').show()
 	  }
 	})
 
 	jQuery('#tabs #fotos').click(function() {
-	  if (!('#block-views-quiz-galery-block-1').is(':visible')) {
+	  if (!jQuery('#block-views-quiz-galery-block-1').is(':visible')) {
 	    jQuery('.active').hide()
 	    jQuery('#block-views-quiz-galery-block-1').addClass('active').show()
 	  }
