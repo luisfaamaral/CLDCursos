@@ -583,3 +583,7 @@ h3.comment-title a { margin-bottom: 5px; font-size: 16px; color: #67696d; }
 #forum th a { color: #fff; }
 #forum td.forum .icon, #forum .icon div { background: url(images/no-new-posts.png) no-repeat; width: 35px; height: 35px; }
 #forum .name a { font-size: 16px; }
+
+/* Adm Pages
+/*-------------------------------------------*/
+body.page-node-add-quiz-games div.vertical-tabs { display: none; }
