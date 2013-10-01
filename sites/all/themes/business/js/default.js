@@ -138,7 +138,7 @@ jQuery(document).ready(function() {
 	})
 
 	jQuery('#tabs #fotos').click(function() {
-	  if (!('#').is(':visible')) {
+	  if (!('#block-views-quiz-galery-block-1').is(':visible')) {
 	    jQuery('.active').hide()
 	    jQuery('#block-views-quiz-galery-block-1').addClass('active').show()
 	  }
