@@ -125,6 +125,25 @@ jQuery(document).ready(function() {
     jQuery('form#views-exposed-form-show-all-courses-block input#edit-submit-show-all-courses').click()
   })
   
+  // Quiz page
+  if (jQuery('body.page-node-76')) {
+    jQuery('#block-views-tabela-quiz-block').addClass('active')
+  }
+  
+  jQuery('#tabs #ranking').click(function() {
+	  if (!('#block-views-tabela-quiz-block').is(':visible')) {
+	    jQuery('.active').hide()
+	    jQuery('#block-views-tabela-quiz-block').addClass('active').show()
+	  }
+	})
+
+	jQuery('#tabs #fotos').click(function() {
+	  if (!('#').is(':visible')) {
+	    jQuery('.active').hide()
+	    jQuery('#block-views-quiz-galery-block-1').addClass('active').show()
+	  }
+	})
+  
 })
 
 function showSignUpBlock () {
