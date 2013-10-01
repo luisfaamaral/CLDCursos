@@ -143,7 +143,21 @@ jQuery(document).ready(function() {
 	    jQuery('#block-views-quiz-galery-block-1').addClass('active').show()
 	  }
 	})
-  
+	
+	jQuery('#tabs #jogos_realizados').click(function() {
+	  if (!jQuery('#block-views-jogos-relizados-block').is(':visible')) {
+	    jQuery('.active').hide()
+	    jQuery('#block-views-jogos-relizados-block').addClass('active').show()
+	  }
+	})
+	
+	jQuery('#tabs #jogos_marcados').click(function() {
+	  if (!jQuery('#block-views-jogos-marcados-block').is(':visible')) {
+	    jQuery('.active').hide()
+	    jQuery('#block-views-jogos-marcados-block').addClass('active').show()
+	  }
+	})
+	
 })
 
 function showSignUpBlock () {
