@@ -87,6 +87,12 @@ div#block-block-15 img { width: 80%; }
 div#block-block-15 { margin-top: 40px; text-align: center;}
 #post-content h1 { text-transform: none; }
 
+
+div#block-views-quiz-galery-block-1 { display: none; }
+body.page-node-76 div#tabs { margin-bottom: 10px;background:#EEEEEE; }
+body.page-node-76 div#tabs span { padding: 10px;display: inline-block;cursor: pointer;margin: 0 2px; }
+body.page-node-76 div#tabs span#ranking { margin-left: 230px; }
+
 /* Login Block
 ------------------------------*/
 div#block-user-login { float: right; width: 30%; }
