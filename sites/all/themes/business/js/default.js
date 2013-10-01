@@ -127,7 +127,7 @@ jQuery(document).ready(function() {
   
   // Quiz page
   if (jQuery('body.page-node-76')) {
-    jQuery('#block-views-tabela-quiz-block').addClass('active')
+    jQuery('#block-views-quiz-galery-block-1').addClass('active')
   }
   
   jQuery('#tabs #ranking').click(function() {
