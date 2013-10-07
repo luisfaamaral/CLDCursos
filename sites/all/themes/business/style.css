@@ -84,7 +84,7 @@ div.view-tabela-quiz td.views-field-field-pontos { width: 80px; }
 div#block-block-15 h2 { display: none; }
 div#block-block-15 h3 { text-transform: none;color: #B22525;}
 div#block-block-15 img { width: 80%; }
-div#block-block-15 { margin-top: 40px; text-align: center;}
+div#block-block-15 { margin-top: 50px; text-align: center;clear: left;display: block;}
 #post-content h1 { text-transform: none; }
 
 div#block-views-tabela-quiz-block { display: none; }
@@ -105,7 +105,7 @@ div#block-views-jogos-marcados-block div.view-filters div.views-exposed-widget {
 div#edit-field-semana-tid-wrapper { display: none; }
 
 
-div#block-block-16 { display: inline-block;float: left;margin-left: 80px;margin-top: 50px; margin-right: 42px;}
+div#block-block-16 { display: inline-block;float: left;margin: 50px 42px 20px 80px;}
 div#block-block-16 li { cursor: pointer;margin-left: 15px;text-align: center;list-style: none outside none; }
 
 /* Login Block
