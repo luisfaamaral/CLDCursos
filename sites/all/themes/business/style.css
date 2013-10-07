@@ -101,6 +101,7 @@ div#block-views-jogos-relizados-block div.view-filters div.views-exposed-widget 
 div#block-views-jogos-marcados-block div.view-filters div.views-exposed-widget { float: right; }
 
 div#block-block-16 { display: inline-block;float: left;margin-left: 80px;margin-top: 50px; }
+div#block-block-16 li { cursor: pointer;margin-left: 15px; }
 
 /* Login Block
 ------------------------------*/
