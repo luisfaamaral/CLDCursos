@@ -100,7 +100,7 @@ div#block-views-jogos-relizados-block ul li, div#block-views-jogos-marcados-bloc
 div#block-views-jogos-relizados-block ul li, div#block-views-jogos-marcados-block ul li {list-style: none outside none;}
 div#block-views-jogos-relizados-block div.view-filters div.views-exposed-widget { float: right; }
 div#block-views-jogos-marcados-block div.view-filters div.views-exposed-widget { float: right; }
-div#block-views-jogos-marcados-block div.view-filters div.views-exposed-widget div#edit-field-week-value-wrapper { display: none; }
+div#block-views-jogos-realizados-block div.view-filters div.views-exposed-widget div#edit-field-week-value-wrapper { display: none; }
 
 div#block-block-16 { display: inline-block;float: left;margin-left: 80px;margin-top: 50px; margin-right: 42px;}
 div#block-block-16 li { cursor: pointer;margin-left: 15px;text-align: center;list-style: none outside none; }
