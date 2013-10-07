@@ -157,7 +157,7 @@ jQuery(document).ready( function() {
 	})
 
 	jQuery('#tabs #jogos_marcados').click( function() {
-		jQuery('#block-block-16').show()
+		jQuery('#block-block-16').hide()
 		if (!jQuery('#block-views-jogos-marcados-block').is(':visible')) {
 			jQuery('.active').hide()
 			jQuery('#block-views-jogos-marcados-block').addClass('active').show()
