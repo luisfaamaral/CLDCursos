@@ -93,7 +93,7 @@ body.page-node-76 div#tabs { margin-bottom: 10px;background:#EEEEEE;margin-left:
 body.page-node-76 div#tabs span { padding: 10px;display: inline-block;cursor: pointer;margin: 0 2px; }
 body.page-node-76 div#tabs span#fotos { margin-left: 134px; }
 
-div#block-views-jogos-relizados-block, div#block-views-jogos-marcados-block { display: inline-block;margin-left: 20px; }
+div#block-views-jogos-relizados-block, div#block-views-jogos-marcados-block { display: none;margin-left: 20px; }
 div#block-views-jogos-relizados-block div.views-field-field-semana, div#block-views-jogos-marcados-block div.views-field-field-semana { display: inline-block;float: left;margin-right: 4px; }
 div#block-views-jogos-relizados-block span.views-field-title, div#block-views-jogos-marcados-block span.views-field-title { margin-left: 5px; }
 div#block-views-jogos-relizados-block ul li, div#block-views-jogos-marcados-block ul li {list-style: none outside none;}
