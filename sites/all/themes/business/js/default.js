@@ -130,6 +130,9 @@ jQuery(document).ready( function() {
 	if (jQuery('body.page-node-76')) {
 		jQuery('#block-views-quiz-galery-block-1').addClass('active')
 		jQuery('#block-block-16').hide()
+		jQuery('#block-views-tabela-quiz-block').hide()
+		jQuery('#block-views-jogos-relizados-block').hide()
+		jQuery('#block-views-jogos-marcados-block').hide()
 	}
 
 	jQuery('#tabs #ranking').click( function() {
