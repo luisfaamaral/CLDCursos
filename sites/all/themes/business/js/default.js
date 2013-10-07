@@ -127,6 +127,17 @@ jQuery(document).ready( function() {
 	})
 
 	// Quiz page
+	
+	jQuery('ul#semanas_quiz li').click(function() {
+		val = jQuery(this).html()
+		if (val == "Todas as semanas") {
+			jQuery('input#edit-field-week-value').val("")  
+		} else {
+			jQuery('input#edit-field-week-value').val(val)
+		}
+		jQuery('input#edit-submit-jogos-relizados').click()
+	})
+	
 	if (jQuery('body.page-node-76')) {
 		jQuery('#block-views-quiz-galery-block-1').addClass('active')
 		jQuery('#block-block-16').hide()
@@ -165,17 +176,6 @@ jQuery(document).ready( function() {
 			jQuery('.active').hide()
 			jQuery('#block-views-jogos-marcados-block').addClass('active').show()
 		}
-	})
-
-	
-	jQuery('ul#semanas_quiz li').click(function() {
-		val = jQuery(this).html()
-		if (val == "Todas as semanas") {
-			jQuery('input#edit-field-week-value').val("")  
-		} else {
-			jQuery('input#edit-field-week-value').val(val)
-		}
-		jQuery('input#edit-submit-jogos-relizados').click()
 	})
 })
 
