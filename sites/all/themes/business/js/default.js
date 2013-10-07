@@ -167,6 +167,16 @@ jQuery(document).ready( function() {
 		}
 	})
 
+	
+	jQuery('ul#semanas_quiz li').click(function() {
+		val = jQuery(this).html()
+		if (val == "Todas as semanas") {
+			jQuery('input#edit-field-week-value').val("")  
+		} else {
+			jQuery('input#edit-field-week-value').val(val)
+		}
+		jQuery('input#edit-submit-jogos-relizados').click()
+	})
 })
 
 function showSignUpBlock() {

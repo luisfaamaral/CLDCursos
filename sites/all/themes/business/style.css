@@ -96,11 +96,12 @@ body.page-node-76 div#tabs span#fotos { margin-left: 134px; }
 div#block-views-jogos-relizados-block, div#block-views-jogos-marcados-block { display: inline-block;margin-left: 20px; }
 div#block-views-jogos-relizados-block div.views-field-field-semana, div#block-views-jogos-marcados-block div.views-field-field-semana { display: inline-block;float: left;margin-right: 4px; }
 div#block-views-jogos-relizados-block span.views-field-title, div#block-views-jogos-marcados-block span.views-field-title { margin-left: 5px; }
+div#block-views-jogos-relizados-block ul li, div#block-views-jogos-marcados-block ul { margin-left: 80px; }
 div#block-views-jogos-relizados-block ul li, div#block-views-jogos-marcados-block ul li {list-style: none outside none;}
 div#block-views-jogos-relizados-block div.view-filters div.views-exposed-widget { float: right; }
 div#block-views-jogos-marcados-block div.view-filters div.views-exposed-widget { float: right; }
 
-div#block-block-16 { display: inline-block;float: left;margin-left: 80px;margin-top: 50px; }
+div#block-block-16 { display: inline-block;float: left;margin-left: 80px;margin-top: 50px; margin-right: 42px;}
 div#block-block-16 li { cursor: pointer;margin-left: 15px; }
 
 /* Login Block
