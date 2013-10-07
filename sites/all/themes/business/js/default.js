@@ -5,12 +5,12 @@ jQuery(document).ready( function() {
 	jQuery('form#user-login-form input#edit-name').blur( function() {
 		if (jQuery(this).val() == "") {
 			jQuery(this).addClass('notFilled')
-			jQuery(this).val('Usu√°rio')
+			jQuery(this).val('Usuário')
 		}
 	})
 
 	jQuery('form#user-login-form input#edit-name').focus( function() {
-		if (jQuery(this).val() == "Usu√°rio") {
+		if (jQuery(this).val() == "Usuário") {
 			jQuery(this).removeClass('notFilled')
 			jQuery(this).val('')
 		}
@@ -149,7 +149,7 @@ jQuery(document).ready( function() {
 	jQuery('#tabs #ranking').click( function() {
 		jQuery('#block-block-16').hide()
 		if (!jQuery('#block-views-tabela-quiz-block').is(':visible')) {
-			jQuery('.active').hide()
+			jQuery('.region-content .active').hide()
 			jQuery('#block-views-tabela-quiz-block').addClass('active').show()
 		}
 	})
@@ -157,7 +157,7 @@ jQuery(document).ready( function() {
 	jQuery('#tabs #fotos').click( function() {
 		jQuery('#block-block-16').hide()
 		if (!jQuery('#block-views-quiz-galery-block-1').is(':visible')) {
-			jQuery('.active').hide()
+			jQuery('.region-content .active').hide()
 			jQuery('#block-views-quiz-galery-block-1').addClass('active').show()
 		}
 	})
@@ -165,7 +165,7 @@ jQuery(document).ready( function() {
 	jQuery('#tabs #jogos_realizados').click( function() {
 		jQuery('#block-block-16').show()
 		if (!jQuery('#block-views-jogos-relizados-block').is(':visible')) {
-			jQuery('.active').hide()
+			jQuery('.region-content .active').hide()
 			jQuery('#block-views-jogos-relizados-block').addClass('active').show()
 		}
 	})
@@ -173,7 +173,7 @@ jQuery(document).ready( function() {
 	jQuery('#tabs #jogos_marcados').click( function() {
 		jQuery('#block-block-16').hide()
 		if (!jQuery('#block-views-jogos-marcados-block').is(':visible')) {
-			jQuery('.active').hide()
+			jQuery('.region-content .active').hide()
 			jQuery('#block-views-jogos-marcados-block').addClass('active').show()
 		}
 	})
