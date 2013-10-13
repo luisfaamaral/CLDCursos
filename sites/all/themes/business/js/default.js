@@ -1,6 +1,6 @@
 jQuery(document).ready( function() {
 	// Login block
-	jQuery('form#user-login-form input#edit-name').val('Usu&aacute;rio').addClass('notFilled')
+	jQuery('form#user-login-form input#edit-name').val('Usu‡rio').addClass('notFilled')
 	jQuery('form#user-login-form input#edit-pass').val('Senha').addClass('notFilled')
 	jQuery('form#user-login-form input#edit-name').blur( function() {
 		if (jQuery(this).val() == "") {
