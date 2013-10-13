@@ -67,6 +67,10 @@ form#views-exposed-form-todos-cursos-page-page div#edit-title-wrapper { float: r
 form#views-exposed-form-todos-cursos-page-page label { display: inline-block; }
 form#views-exposed-form-todos-cursos-page-page div.views-widget { display: inline-block; margin-left: 5px; }
 
+/* Jogos
+------------------------------*/
+div#jogos a { border-radius: 1em;box-shadow: 6px 7px 6px #B00000;display: inline-block;float: left;height: 200px;margin-left: 20px;width: 160px;text-align: center; }
+
 /* Quiz
 ------------------------------*/
 body.page-node-76 h1 div.field-item { font-size: 35px; margin-bottom: 20px; line-height: 1.2em; }
@@ -90,7 +94,7 @@ div#block-block-15 { margin-top: 50px; text-align: center;clear: left;display: b
 div#block-views-tabela-quiz-block { display: none; }
 div#view-quiz_galery-block_1 { margin: auto }
 body.page-node-76 div#tabs { margin: auto auto 20px;width: 300px;border: 1px solid #EEEEEE;border-radius: 11px; text-align: center;}
-body.page-node-76 div#tabs span { padding: 10px;display: inline-block;cursor: pointer;margin: 0 2px; }
+body.page-node-76 div#tabs span { padding: 5px 10px;px;display: inline-block;cursor: pointer;margin: 0 2px; }
 
 div#block-views-jogos-relizados-block, div#block-views-jogos-marcados-block { display: inline-block;margin-left: 20px; width: 500px;}
 div#block-views-jogos-marcados-block { width: 752px; }
