@@ -1,16 +1,16 @@
 jQuery(document).ready( function() {
 	// Login block
-	jQuery('form#user-login-form input#edit-name').val('Usu‡rio').addClass('notFilled')
+	jQuery('form#user-login-form input#edit-name').val('Usuario').addClass('notFilled')
 	jQuery('form#user-login-form input#edit-pass').val('Senha').addClass('notFilled')
 	jQuery('form#user-login-form input#edit-name').blur( function() {
 		if (jQuery(this).val() == "") {
 			jQuery(this).addClass('notFilled')
-			jQuery(this).val('Usu‡rio')
+			jQuery(this).val('Usuario')
 		}
 	})
 
 	jQuery('form#user-login-form input#edit-name').focus( function() {
-		if (jQuery(this).val() == "Usu‡rio") {
+		if (jQuery(this).val() == "Usuario") {
 			jQuery(this).removeClass('notFilled')
 			jQuery(this).val('')
 		}
