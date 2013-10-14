@@ -1689,7 +1689,16 @@ function webform_mail($key, &$message, $params) {
     $msg = $params['message'];
 
     preg_match('/(?P<name>\w+): (?P<digit>\d+)/', $msg, $matches);
-    var_dump($matches);exit;
+    if ($matches['name'] == "Desejado") {
+      $id = $matches['digit'];
+      $book = book_link_load($id);
+	  $nid = $book['nid'];
+
+	  $n = node_load($nid);
+	  $title = $n->field_nome_do_curso['und'][0]['value'];
+
+var_dump($title);exit;
+    }
   }
 }
 
