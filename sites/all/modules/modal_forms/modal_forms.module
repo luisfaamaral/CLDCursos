@@ -28,6 +28,13 @@ function modal_forms_menu() {
     'access arguments' => array('administer site configuration'),
     'file' => 'modal_forms.admin.inc',
   );
+  $items['modal_forms/%ctools_js/webforms/%node/%curso'] = array(
+    'title' => 'Webform',
+    'page callback' => 'modal_forms_view_webform',
+    'page arguments' => array(1, 3, 4),
+    'access callback' => 'user_is_anonymous',
+    'type' => MENU_CALLBACK,
+  );
   $items['modal_forms/%ctools_js/login'] = array(
     'title' => 'Log in',
     'page callback' => 'modal_forms_login',
@@ -66,13 +73,6 @@ function modal_forms_menu() {
     'page arguments' => array(1, 4),
     'access arguments' => array('post comments'),
     'file' => 'modal_forms.pages.inc',
-    'type' => MENU_CALLBACK,
-  );
-  $items['modal_forms/%ctools_js/webforms/%node/%curso'] = array(
-    'title' => 'Webform',
-    'page callback' => 'modal_forms_view_webform',
-    'page arguments' => array(1, 3, 4),
-    'access callback' => 'user_is_anonymous',
     'type' => MENU_CALLBACK,
   );
   $items['modal_forms/%ctools_js/dismiss'] = array(
