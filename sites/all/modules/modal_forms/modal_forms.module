@@ -68,11 +68,11 @@ function modal_forms_menu() {
     'file' => 'modal_forms.pages.inc',
     'type' => MENU_CALLBACK,
   );
-  $items['modal_forms/%ctools_js/webform/%node/%curso'] = array(
+  $items['modal_forms/%ctools_js/webforms/%node/%curso'] = array(
     'title' => 'Webform',
     'page callback' => 'modal_forms_view_webform',
     'page arguments' => array(1, 3, 4),
-    'access callback' => 'TRUE',
+    'access callback' => 'user_is_anonymous',
     'type' => MENU_CALLBACK,
   );
   $items['modal_forms/%ctools_js/dismiss'] = array(
