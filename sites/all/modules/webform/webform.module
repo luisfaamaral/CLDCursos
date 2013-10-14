@@ -1681,6 +1681,8 @@ function webform_mail($key, &$message, $params) {
   $message['headers'] = array_merge($message['headers'], $params['headers']);
   $message['subject'] = $params['subject'];
   $message['body'][] = $params['message'];
+
+ var_dump($message); exit;
 }
 
 /**
