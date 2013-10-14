@@ -1698,7 +1698,6 @@ function webform_mail($key, &$message, $params) {
 	  $title = $n->field_nome_do_curso['und'][0]['value'];
 
       $message['params']['email']['message'] = str_replace($id, $title, $message['params']['email']['message']);
-      var_dump($message['params']['email']['message']);exit;
     }
   }
 }
