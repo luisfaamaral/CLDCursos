@@ -91,16 +91,16 @@ h3.campeonato {text-align: center;text-transform: none;}
 ------------------------------*/
 h1 div.field-item { font-size: 35px; margin-bottom: 20px; line-height: 1.2em; }
 div#block-views-tabela-quiz-block h2 { display: none; }
-div.view-tabela-quiz table { background: white;border: 1px solid #bbbbbb; margin: auto;width: 700px;}
-div.view-tabela-quiz th, div.view-tabela-quiz tr, div.view-tabela-quiz td { vertical-align: middle; }
-div.view-tabela-quiz th { background: #2E70B1;color: white;text-align: center;text-transform: uppercase;font-weight: normal }
-div.view-tabela-quiz td { color: black; background: white;text-align: center;}
-div.view-tabela-quiz td.views-field-title { width: 250px; }
-div.view-tabela-quiz td.views-field-field-jogos { width: 80px; }
-div.view-tabela-quiz td.views-field-field-vit-rias { width: 80px; }
-div.view-tabela-quiz td.views-field-field-quest-es-respondidas { width: 80px }
-div.view-tabela-quiz td.views-field-field-derrotas { width: 80px; }
-div.view-tabela-quiz td.views-field-field-pontos { width: 80px; }
+div.node-jogos table { background: white;border: 1px solid #bbbbbb; margin: auto;width: 700px;}
+div.node-jogos th, div.node-jogos tr, div.node-jogos td { vertical-align: middle; }
+div.node-jogos th { background: #2E70B1;color: white;text-align: center;text-transform: uppercase;font-weight: normal }
+div.node-jogos td { color: black; background: white;text-align: center;}
+div.node-jogos td.views-field-title { width: 250px; }
+div.node-jogos td.views-field-field-jogos { width: 80px; }
+div.node-jogos td.views-field-field-vit-rias { width: 80px; }
+div.node-jogos td.views-field-field-quest-es-respondidas { width: 80px }
+div.node-jogos td.views-field-field-derrotas { width: 80px; }
+div.node-jogos td.views-field-field-pontos { width: 80px; }
 div#block-block-15 h2 { display: none; }
 div#block-block-15 h3 { text-transform: none;color: #B22525;}
 div#block-block-15 img { width: 80%; }
