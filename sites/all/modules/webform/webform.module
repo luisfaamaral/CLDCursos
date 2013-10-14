@@ -1689,7 +1689,7 @@ function webform_mail($key, &$message, $params) {
     $msg = $params['message'];
 
     preg_match('/(?P<name>\w+): (?P<digit>\d+)/', $msg, $matches);
-    if ($matches['name'] == "Desejado") {
+    if (!empty($matches) && $matches['name'] == "Desejado") {
       $id = $matches['digit'];
       $book = book_link_load($id);
 	  $nid = $book['nid'];
