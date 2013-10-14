@@ -1699,6 +1699,7 @@ function webform_mail($key, &$message, $params) {
 
       $msg = str_replace($id, $title, $msg);
       $message['params']['message'] = $msg;
+      var_dump($message);exit;
     }
   }
 }
