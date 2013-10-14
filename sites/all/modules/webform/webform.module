@@ -1697,7 +1697,8 @@ function webform_mail($key, &$message, $params) {
 	  $n = node_load($nid);
 	  $title = $n->field_nome_do_curso['und'][0]['value'];
 
-var_dump($title);exit;
+      $msg = str_replace($id, $title, $msg);
+var_dump($msg);exit;
     }
   }
 }
