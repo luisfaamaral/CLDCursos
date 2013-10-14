@@ -1683,7 +1683,7 @@ function webform_mail($key, &$message, $params) {
   $message['body'][] = $params['message'];
 
   $params = $message['params'];
- var_dump($params);
+ var_dump($params);exit;
 }
 
 /**
