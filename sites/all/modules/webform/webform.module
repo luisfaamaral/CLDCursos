@@ -1683,7 +1683,12 @@ function webform_mail($key, &$message, $params) {
   $message['body'][] = $params['message'];
 
   $params = $message['params'];
- var_dump($params);exit;
+  $node = $params['node'];
+
+  if ( $node->nid == "68" ) {
+    $msg = $params['message'];
+	var_dump($msg);exit;
+  }
 }
 
 /**
