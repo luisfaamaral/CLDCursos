@@ -209,7 +209,7 @@ function modal_forms_comment_reply($js = NULL, $node, $pid = NULL) {
 function modal_forms_view_webform($js = NULL, $node, $curso) {
   $book = book_link_load($curso);
   $nid = $book['nid'];
-
+  var_dump($nid);exit;
   $n = node_load($nid);
   $title = $n->field_nome_do_curso['und'][0]['value'];
   $v = $node->webform['components'][8]['value'];
