@@ -28,6 +28,13 @@ function modal_forms_menu() {
     'access arguments' => array('administer site configuration'),
     'file' => 'modal_forms.admin.inc',
   );
+  $items['modal_forms/webform/%node/%curso'] = array(
+    'title' => 'Webform',
+    'page callback' => 'modal_forms_view_webform',
+    'page arguments' => array(1, 2, 3),
+    'access callback' => TRUE,
+    'type' => MENU_CALLBACK,
+  );
   $items['modal_forms/%ctools_js/webforms/%node/%curso'] = array(
     'title' => 'Webform',
     'page callback' => 'modal_forms_view_webform',
