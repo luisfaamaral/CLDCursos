@@ -35,6 +35,9 @@ form#webform-client-form-13 div.grippie {width: 100%;}
 form#webform-client-form-13 .form-item, form#webform-client-form-13 .form-actions{margin: 0 0 0 3px;}
 
 div.node-webform h2 {text-transform: none;}
+
+body.page-node-133 div#treinar, body.page-node-134 div#treinar { display: none; }
+
 /* Mailing Page
 ------------------------------*/
 div.view-mailing-users table th.views-field-title { width: 100px; }
