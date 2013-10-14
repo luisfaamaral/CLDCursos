@@ -1701,7 +1701,6 @@ function webform_mail($key, &$message, $params) {
 	  $message['body'][0] = str_replace($id, $title, $message['body'][0]);
 	  $message['params']['message'] = str_replace($id, $title, $message['params']['message']);
 	  $message['params']['submission']->data[8]['value'][0] = $title;
-      var_dump($message);exit;
     }
   }
 }
