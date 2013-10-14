@@ -1688,7 +1688,7 @@ function webform_mail($key, &$message, $params) {
   if ( $node->nid == "68" ) {
     $msg = $params['message'];
 
-    preg_match('/(?P<name>\w+): (?P<digit>\d+)/', $str, $matches);
+    preg_match('/(?P<name>\w+): (?P<digit>\d+)/', $msg, $matches);
     var_dump($matches);exit;
   }
 }
