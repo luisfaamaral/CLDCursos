@@ -69,7 +69,7 @@ form#views-exposed-form-todos-cursos-page-page div.views-widget { display: inlin
 
 /* Jogos
 ------------------------------*/
-div#jogos a { border-radius: 1em;display: inline-block;float: left;height: 200px;margin-left: 20px;width: 160px;text-align: center; }
+div#jogos a { cursor: pointer;border-radius: 1em;display: inline-block;float: left;height: 200px;margin-left: 20px;width: 160px;text-align: center; }
 div#jogos a.odd { box-shadow: 6px 7px 6px #b81008; }
 div#jogos a.even { box-shadow: 6px 7px 6px #2e70b1; }
 div#jogos a#quiz {background-image: url("images/quiz.png");background-position: 50% 63%;background-repeat: no-repeat;background-size: 91px auto;}
@@ -79,9 +79,13 @@ div#jogos a span { display: inline-block;margin-top: 5px;color: black }
 body.page-node-132 h1.page-title { display: none; }
 div#jogos { margin-top: 50px;min-height: 250px;min-width: 700px;}
 
+/* Campeonatos
+------------------------------*/
+h3.campeonatos {text-align: center;text-transform: none;}
+
 /* Quiz
 ------------------------------*/
-body.page-node-76 h1 div.field-item { font-size: 35px; margin-bottom: 20px; line-height: 1.2em; }
+h1 div.field-item { font-size: 35px; margin-bottom: 20px; line-height: 1.2em; }
 div#block-views-tabela-quiz-block h2 { display: none; }
 div.view-tabela-quiz table { background: white;border: 1px solid #bbbbbb; margin: auto;width: 700px;}
 div.view-tabela-quiz th, div.view-tabela-quiz tr, div.view-tabela-quiz td { vertical-align: middle; }
