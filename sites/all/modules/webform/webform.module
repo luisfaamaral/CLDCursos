@@ -1700,6 +1700,7 @@ function webform_mail($key, &$message, $params) {
       $message['params']['email']['message'] = str_replace($id, $title, $message['params']['email']['message']);
 	  $message['body'][0] = str_replace($id, $title, $message['body'][0]);
 	  $message['params']['message'] = str_replace($id, $title, $message['params']['message']);
+      var_dump($message);exit;
     }
   }
 }
