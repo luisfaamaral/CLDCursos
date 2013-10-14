@@ -270,8 +270,9 @@ div#block-block-14 div.content { text-align: center; }
 /* Cursos menu
 ------------------------------*/
 div#block-block-3 {display: block;float: left;width: 100%;margin-top: 10px;border-top: 1px dotted #bbb;text-transform: uppercase;}
+div#block-block-3 div.content { text-align: center; }
 div#block-block-3 h2 {display: none;}
-div#block-block-3 .content ul {height: 50px; margin-left: 20%;}
+div#block-block-3 .content ul {height: 50px; }
 div#block-block-3 ul.menu li ul {display: none;}
 div#block-block-3 ul.menu li {display: inline-block;float: left;height: 100%;cursor: pointer;text-align: center;padding-right: 10px; padding-left: 10px;background: url("images/nav-dots.png") center right no-repeat;}
 div#block-block-3 ul.menu li:hover a, div#block-block-3 ul.menu li:hover span, div#block-block-3 ul.menu a:hover {color: #77a9c5;}
