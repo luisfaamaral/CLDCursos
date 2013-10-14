@@ -72,9 +72,9 @@ form#views-exposed-form-todos-cursos-page-page div.views-widget { display: inlin
 div#jogos a { border-radius: 1em;display: inline-block;float: left;height: 200px;margin-left: 20px;width: 160px;text-align: center; }
 div#jogos a.odd { box-shadow: 6px 7px 6px #b81008; }
 div#jogos a.even { box-shadow: 6px 7px 6px #2e70b1; }
-div#jogos a#quiz img {background-image: url("../images/quiz.jpg");background-position: 50% 63%;background-repeat: no-repeat;background-size: 91px auto;}
-div#jogos a#sudoku {background-image: url("../images/sudoku.jpg");background-position: 50% 63%;background-repeat: no-repeat;background-size: 91px auto;}
-div#jogos a#xadrez {background-image: url("../images/xadrez.jpg");background-position: 50% 63%;background-repeat: no-repeat;background-size: 91px auto;}
+div#jogos a#quiz {background-image: url("images/quiz.jpg");background-position: 50% 63%;background-repeat: no-repeat;background-size: 91px auto;}
+div#jogos a#sudoku {background-image: url("images/sudoku.jpg");background-position: 50% 63%;background-repeat: no-repeat;background-size: 91px auto;}
+div#jogos a#xadrez {background-image: url("images/xadrez.jpg");background-position: 50% 63%;background-repeat: no-repeat;background-size: 91px auto;}
 div#jogos a span { display: inline-block;margin-top: 5px;color: black }
 body.page-node-132 h1.page-title { display: none; }
 div#jogos { margin-top: 50px;min-height: 250px;min-width: 700px;}
