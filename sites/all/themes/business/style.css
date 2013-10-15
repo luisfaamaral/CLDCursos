@@ -87,7 +87,7 @@ div#jogos { margin-top: 50px;min-height: 250px;min-width: 700px;}
 ------------------------------*/
 h3.campeonato {text-align: center;text-transform: none;}
 
-
+div#block-views-ranking-xadrez-block { margin-top: -30px; }
 /* Quiz
 ------------------------------*/
 h1 div.field-item { font-size: 35px; margin-bottom: 20px; line-height: 1.2em; }
