@@ -1697,7 +1697,7 @@ function webform_mail($key, &$message, $params) {
 	  $n = node_load($nid);
 	  $title = $n->field_nome_do_curso['und'][0]['value'];
       $title = utf8Fix($title);
-	  $title = ereg_replace("[^a-zA-Z0-9_]", "", strtr($title, "áàãâéêíóôõúüçÁÀÃÂÉÊÍÓÔÕÚÜÇ ", "aaaaeeiooouucAAAAEEIOOOUUC_"))
+	  $title = ereg_replace("[^a-zA-Z0-9_]", "", strtr($title, "áàãâéêíóôõúüçÁÀÃÂÉÊÍÓÔÕÚÜÇ ", "aaaaeeiooouucAAAAEEIOOOUUC_"));
 echo("la".$title);exit;
 
       $message['params']['email']['message'] = str_replace($id, $title, $message['params']['email']['message']);
