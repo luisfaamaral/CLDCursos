@@ -1696,6 +1696,7 @@ function webform_mail($key, &$message, $params) {
 
 	  $n = node_load($nid);
 	  $title = $n->field_nome_do_curso['und'][0]['value'];
+      $title = stripAccents($title);
 var_dump($title);exit;
       $message['params']['email']['message'] = str_replace($id, $title, $message['params']['email']['message']);
 	  $message['body'][0] = str_replace($id, $title, $message['body'][0]);
@@ -1703,6 +1704,11 @@ var_dump($title);exit;
 	  $message['params']['submission']->data[8]['value'][0] = $title;
     }
   }
+}
+
+function stripAccents($string) { 
+ return strtr($string,'àáâãäçèéêëìíîïñòóôõöùúûüýÿÀÁÂÃÄÇÈÉÊËÌÍÎÏÑÒÓÔÕÖÙÚÛÜÝ', 
+'aaaaaceeeeiiiinooooouuuuyyAAAAACEEEEIIIINOOOOOUUUUY'); 
 }
 
 /**
