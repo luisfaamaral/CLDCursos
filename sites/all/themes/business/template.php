@@ -41,8 +41,8 @@ function business_preprocess_html(&$vars) {
   $meta_google = array(
     '#tag' => 'meta',
     '#attributes' => array(
-      'content' =>  'j23xLlFygjMijXIzncpEjZDcRBqrpBqgmeGVepRoOHY',
-      'name' => 'google-site-verification',
+        'name' => 'google-site-verification',
+        'content' =>  'j23xLlFygjMijXIzncpEjZDcRBqrpBqgmeGVepRoOHY',
     )
   );
 
