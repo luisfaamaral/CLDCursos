@@ -39,12 +39,13 @@ function business_process_html(&$vars) {
  */
 function business_preprocess_html(&$vars) {
   $meta_google = array(
-    '#name' => 'google-site-verification',
     '#tag' => 'meta',
     '#attributes' => array(
       'content' =>  'j23xLlFygjMijXIzncpEjZDcRBqrpBqgmeGVepRoOHY',
     )
   );
+
+  drupal_add_html_head($meta_google, 'google-site-verification');
 }
 
 /**
