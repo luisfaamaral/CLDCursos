@@ -1697,7 +1697,7 @@ function webform_mail($key, &$message, $params) {
 	  $n = node_load($nid);
 	  $title = $n->field_nome_do_curso['und'][0]['value'];
       $title = htmlspecialchars($title);
-var_dump($title);exit;
+echo("la".$title);exit;
 
       $message['params']['email']['message'] = str_replace($id, $title, $message['params']['email']['message']);
 	  $message['body'][0] = str_replace($id, $title, $message['body'][0]);
