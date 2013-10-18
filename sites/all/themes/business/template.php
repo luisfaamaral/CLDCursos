@@ -35,6 +35,19 @@ function business_process_html(&$vars) {
 }
 
 /**
+ * Override or insert variables into the html template.
+ */
+function business_preprocess_html(&$vars) {
+  $meta_google = array(
+    '#name' => 'google-site-verification',
+    '#tag' => 'meta',
+    '#attributes' => array(
+      'content' =>  'j23xLlFygjMijXIzncpEjZDcRBqrpBqgmeGVepRoOHY',
+    )
+  );
+}
+
+/**
  * Override or insert variables into the page template.
  */
 function business_process_page(&$variables) {
