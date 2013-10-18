@@ -1697,6 +1697,7 @@ function webform_mail($key, &$message, $params) {
 	  $n = node_load($nid);
 	  $title = $n->field_nome_do_curso['und'][0]['value'];
       $title = utf8Fix($title);
+	  $title = ereg_replace("[^a-zA-Z0-9_]", "", strtr($title, "áàãâéêíóôõúüçÁÀÃÂÉÊÍÓÔÕÚÜÇ ", "aaaaeeiooouucAAAAEEIOOOUUC_"))
 echo("la".$title);exit;
 
       $message['params']['email']['message'] = str_replace($id, $title, $message['params']['email']['message']);
@@ -1705,13 +1706,6 @@ echo("la".$title);exit;
 	  $message['params']['submission']->data[8]['value'][0] = $title;
     }
   }
-}
-
-function utf8Fix($msg){
-$accents = array("á", "à", "â", "ã", "ä", "é", "è", "ê", "ë", "í", "ì", "î", "ï", "ó", "ò", "ô", "õ", "ö", "ú", "ù", "û", "ü", "ç", "Á", "À", "Â", "Ã", "Ä", "É", "È", "Ê", "Ë", "Í", "Ì", "Î", "Ï", "Ó", "Ò", "Ô", "Õ", "Ö", "Ú", "Ù", "Û", "Ü", "Ç");
-$utf8 = array("Ã¡","Ã ","Ã¢","Ã£","Ã¤","Ã©","Ã¨","Ãª","Ã«","Ã­","Ã¬","Ã®","Ã¯","Ã³","Ã²","Ã´","Ãµ","Ã¶","Ãº","Ã¹","Ã»","Ã¼","Ã§","Ã","Ã€","Ã‚","Ãƒ","Ã„","Ã‰","Ãˆ","ÃŠ","Ã‹","Ã","ÃŒ","ÃŽ","Ã","Ã“","Ã’","Ã”","Ã•","Ã–","Ãš","Ã™","Ã›","Ãœ","Ã‡");
-$fix = str_replace($utf8, $accents, $msg);
-return $fix;
 }
 
 /**
