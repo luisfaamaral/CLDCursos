@@ -453,10 +453,11 @@ body.front #main {background: none;}
 
 /* Front-page Cursos
 /*-------------------------------------------*/
-body.front #block-views-todos-cursos-page-block-1 { margin: 20px; }
+body.front #block-views-todos-cursos-page-block-1 { margin: 20px 35px 10px 20px; }
 body.front #block-views-todos-cursos-page-block-1 h2 { display: none; }
 body.front #block-views-todos-cursos-page-block-1 li { background: none repeat scroll 0 0 #FFFFFF;border-bottom: 10px solid;height: 250px;padding: 20px; }
-
+body.front #block-views-todos-cursos-page-block-1 div.view-todos-cursos-page div.views-field-field-image img { width: 200px;height: 150px; }
+body.front #block-views-todos-cursos-page-block-1 div.view-todos-cursos-page div.views-field-field-image {float: left;margin-right: 30px;margin-top:10px;}
 /* Front-page Slider
 /*-------------------------------------------*/
 div#slider { height: 350px; padding-left: 15%; padding-right: 15%; margin-top: 20px; z-index:1; }
