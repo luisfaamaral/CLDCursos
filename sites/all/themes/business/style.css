@@ -457,7 +457,7 @@ body.front #main {background: none;}
 /* Front-page Go to top
 /*-------------------------------------------*/
 div#block-block-18 h2 { display: none; }
-div#block-block-18 { background:url(images/topo.jpg) no-repeat center; text-align:center; margin-bottom: 15px;cursor:pointer;}
+div#block-block-18 { background:url(images/topo.jpg) no-repeat center; text-align:center; margin-bottom: 15px;cursor:pointer;color: #FFFFFF;}
 
 /* Front-page Cursos
 /*-------------------------------------------*/

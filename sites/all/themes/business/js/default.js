@@ -177,6 +177,12 @@ jQuery(document).ready( function() {
 			jQuery('#block-views-jogos-marcados-block').addClass('active').show()
 		}
 	})
+	
+	jQuery('#block-block-18 span#topo').click(function() {
+		jQuery('body,html').animate({
+			scrollTop: 0
+		}, 800);
+	})
 })
 
 function showSignUpBlock() {
