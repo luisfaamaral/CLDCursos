@@ -311,6 +311,7 @@ div#block-block-3 div.views-field-field-nome-do-curso span { display: inline-blo
 div#block-block-3 div.views-field-field-nome-do-curso div.field-content { display: inline-block; width: 91%; }
 div#block-block-3 div.views-field-title {display: inline-block; width: 30px; vertical-align: top; }
 div#block-block-3 .field-item { font-size: 14px; }
+
 /* Fan Page
 ------------------------------*/
 div#block-block-12 .u_0_3 { display: none; }
@@ -453,6 +454,10 @@ body.front aside#sidebar {float: right;width: 30%;background: white;margin-right
 body.front h1.page-title {display:none}
 body.front #main {background: none;}
 
+/* Front-page Go to top
+/*-------------------------------------------*/
+div#block-block-18 h2 { display: none; }
+div#block-block-18 { background:url(images/topo.jpg) no-repeat center; text-align:center; }
 
 /* Front-page Cursos
 /*-------------------------------------------*/
