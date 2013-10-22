@@ -181,6 +181,7 @@ body.page-node-13 aside#sidebar div.views-field-field-nome-do-curso {width: 80%;
 body.page-node-13 aside#sidebar img {width: 280px;height: 100px;}
 body.page-node-13 aside#sidebar div.views-row {border-bottom: 1px solid #EEEEEE;}
 body.page-node-13 form#user-login-form div.form-actions input {margin-top: 15px;}
+body.page-node-13 #webform-component-assunto { margin-bottom: 3px; }
 
 div#block-block-2 h2, div#block-block-2 div.content {margin: 10px 0 0 15px;}
 
@@ -318,7 +319,7 @@ div#block-block-12 .u_0_3 { display: none; }
 ------------------------------*/
 .google_map_field_display {height: 350px;width: 750px;}
 body.node-type-address-location div.field-name-field-endereco {display: inline-block;}
-body.node-type-address-location div.node-address-location div.field-type-text-with-summary {width: 335px;display: inline-block;vertical-align: top;}
+body.node-type-address-location div.node-address-location div.field-type-text-with-summary {display: inline-block;float: right;margin-left: 10px;vertical-align: top;width: 320px;}
 
 /* Default Style
 --------------------------------*/
