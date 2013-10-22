@@ -460,7 +460,7 @@ body.front #block-views-todos-cursos-page-block-1 li { background: none repeat s
 body.front #block-views-todos-cursos-page-block-1 div.view-todos-cursos-page div.views-field-field-image img { width: 200px;height: 150px; }
 body.front #block-views-todos-cursos-page-block-1 div.view-todos-cursos-page div.views-field-field-image {margin-right: 30px;margin-top: 10px;padding: 10px;}
 body.front #block-views-todos-cursos-page-block-1 div.view-todos-cursos-page div.views-field-field-nome-do-curso { margin-left: -300px;margin-bottom: 10px;margin-top: 10px;}
-
+body.front div.view-todos-cursos-page div.views-field-field-nome-do-curso { width: auto; }
 
 /* Front-page Slider
 /*-------------------------------------------*/
