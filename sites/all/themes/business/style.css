@@ -500,6 +500,7 @@ body.front div#block-block-17 { padding: 1px 10px; }
 div#block-block-17 h2 a { color: #b22525; }
 div#block-block-17 div.content h2 {display: block;}
 div#block-block-17 div.field-item {font-size: 16px;}
+div#block-block-17 a.championship { background: none repeat scroll 0 0 #2E70B1;border: 1px solid #2E70B1;border-radius: 5px 5px 5px 5px;color: #FFFFFF;cursor: pointer;display: block;font-weight: bold;margin-bottom: 5px;margin-right: 4px;margin-top: 30px;padding: 4px 6px;text-align: center;text-shadow: 1px 1px 1px #300033; }
 
 /* Front-page Calendar
 ------------------------------*/
