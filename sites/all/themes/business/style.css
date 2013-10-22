@@ -557,7 +557,7 @@ body.sidebar-first #post-content { float: left; margin: 0; padding: 0; width: 65
 /*-------------------------------------------*/
 .poll .vote-form .choices .title { font-size: 14px; font-weight: normal; line-height: 2; }
 .poll .vote-form .choices { margin: 0; }
-.form-submit { -moz-transition: all 0.2s ease-in-out 0s; border-radius: 5px; cursor: pointer; background: none repeat scroll 0 0 #B81007; border: 1px solid #9D4D2C; color: #fff; padding: 4px 6px; text-shadow: 1px 1px 1px #300033; margin-right: 4px; margin-bottom: 5px; font-weight: bold; }
+.form-submit { -moz-transition: all 0.2s ease-in-out 0s; border-radius: 5px; cursor: pointer; background: none repeat scroll 0 0 #2E70B1; border: 1px solid #9D4D2C; color: #fff; padding: 4px 6px; text-shadow: 1px 1px 1px #300033; margin-right: 4px; margin-bottom: 5px; font-weight: bold; }
 .form-submit:hover { background: none repeat scroll 0 0 #CF5240; }
 input.form-checkbox, input.form-radio { vertical-align: baseline; }
 .form-text { border-radius: 3px; border: 1px solid #acacac; padding: 4px 5px; }
