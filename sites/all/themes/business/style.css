@@ -354,7 +354,6 @@ p { margin: 0 0 0.8em; }
 strong { font-weight: 700; }
 em { font-style: italic; }
 #wrap { background: #d8d8d8 url(images/mainbg.png) repeat; }
-#main { margin: 15px 15% 15px 15%; background: white; padding: 10px 20px; }
 
 /* Headings
 /*-------------------------------------------*/
@@ -447,11 +446,16 @@ div#block-views-ultimos-cursos-block .field-content a { display: inline-block; p
 
 /* Front-page
 /*-------------------------------------------*/
-body.front div#main section#post-content {display: none;}
 body.front #main {padding: 0px;}
 body.front aside#sidebar {float: right;width: 30%;background: white;margin-right: 15%;border-radius: 15px 15px 15px 15px;}
 body.front h1.page-title {display:none}
 body.front #main {background: none;}
+
+/* Front-page Cursos
+/*-------------------------------------------*/
+body.front #block-views-todos-cursos-page-block-1 { margin: 20px; }
+body.front #block-views-todos-cursos-page-block-1 h2 { display: none; }
+body.front #block-views-todos-cursos-page-block-1 li { background: none repeat scroll 0 0 #FFFFFF;border-bottom: 10px solid;height: 250px;padding: 20px; }
 
 /* Front-page Slider
 /*-------------------------------------------*/
