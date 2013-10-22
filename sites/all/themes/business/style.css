@@ -447,7 +447,7 @@ div#block-views-ultimos-cursos-block .field-content a { display: inline-block; p
 /* Front-page
 /*-------------------------------------------*/
 body.front #main {padding: 0px;}
-body.not-front {background: none repeat scroll 0 0 #FFFFFF;margin: 15px 5%;padding: 10px;}
+body.not-front #main {background: none repeat scroll 0 0 #FFFFFF;margin: 15px 5%;padding: 10px;}
 body.front aside#sidebar {float: right;width: 30%;background: white;margin-right: 15%;border-radius: 15px 15px 15px 15px;}
 body.front h1.page-title {display:none}
 body.front #main {background: none;}
