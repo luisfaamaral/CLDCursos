@@ -494,6 +494,14 @@ div#block-advpoll-advpoll-block-33 h2 a { color: #b22525; }
 div#block-advpoll-advpoll-block-33 div.content h2 {display: block;}
 div#block-advpoll-advpoll-block-33 div.field-item {font-size: 16px;}
 
+/*Front-page Campeonato
+------------------------------*/
+body.front div#block-block-17 { padding: 1px 10px; }
+div#block-block-17 h2 {display: none;}
+div#block-block-17 h2 a { color: #b22525; }
+div#block-block-17 div.content h2 {display: block;}
+div#block-block-17 div.field-item {font-size: 16px;}
+
 /* Front-page Calendar
 ------------------------------*/
 div#block-views-calendar-block {padding: 5px 10px;}
