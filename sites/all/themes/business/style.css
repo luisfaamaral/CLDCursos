@@ -513,7 +513,7 @@ div#block-views-calendar-block td.fc-day {min-height: 50px;}
 
 /* Front-page Highlights
 /*-------------------------------------------*/
-body.front div#home-highlights div.home-highlight-box:nth-child(1) { width: 25%; margin-right: 2%;margin-left: 2%; }
+body.front div#home-highlights div.home-highlight-box:nth-child(1) { width: 25%; margin-right: 2%;margin-left: 3%; }
 body.front div#home-highlights div.home-highlight-box:nth-child(2) { width: 40%;margin-right: 2%; }
 body.front div#home-highlights div.home-highlight-box:nth-child(3) { width: 25%;margin-right: 2%; }
 body.front div#home-highlights div.home-highlight-box { float: left; }
