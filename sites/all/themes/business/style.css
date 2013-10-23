@@ -508,12 +508,13 @@ div#block-views-mostrar-interesse-block-block h2 { text-transform: none; }
 /*Front-page Poll
 ------------------------------*/
 div#block-advpoll-advpoll-block-33 { padding: 1px 10px; }
-#node-33 { margin-bottom: 10px; padding-bottom: 10px; }
+#node-33 { margin-bottom: 10px; padding-bottom: 35px; }
 div#block-advpoll-advpoll-block-33 h2 {display: none;}
 div#block-advpoll-advpoll-block-33 h2 a { color: #b22525; }
 div#block-advpoll-advpoll-block-33 div.content h2 {display: block;}
 div#block-advpoll-advpoll-block-33 div.field-item {font-size: 16px;}
 div#block-advpoll-advpoll-block-33 input.form-submit {font-size: 13px;font-weight: bold;height: 37px;text-transform: uppercase;width: 170px;}
+#node-33 div#pool_reg { position: absolute;font-size: 12px;margin: 76% 5px 0 5px;line-height: 15px; }
 
 /*Front-page Campeonato
 ------------------------------*/
