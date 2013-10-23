@@ -509,6 +509,7 @@ div#block-views-mostrar-interesse-block-block h2 { text-transform: none; }
 ------------------------------*/
 div#block-advpoll-advpoll-block-33 { padding: 1px 10px; }
 #node-33 { margin-bottom: 10px; padding-bottom: 35px; }
+body.logged-in #node-33 { padding-bottom: 10px; }
 div#block-advpoll-advpoll-block-33 h2 {display: none;}
 div#block-advpoll-advpoll-block-33 h2 a { color: #b22525; }
 div#block-advpoll-advpoll-block-33 div.content h2 {display: block;}
