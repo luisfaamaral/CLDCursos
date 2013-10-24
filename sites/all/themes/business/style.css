@@ -25,6 +25,7 @@ div#block-block-1 legend.collapse {background-image:url('images/plusSign.jpg');b
 div#block-block-1 ul {list-style: -moz-lao outside none;margin-left:25px;}
 div#block-block-1 ul div.download-file img { vertical-align: -2px; }
 div#block-block-1 ul div.download-file a { margin-left:4px; }
+div#block-block-1 div.download-file a { display: inline-block; }
 
 div#block-system-user-menu {float: right;margin-top: 10px;}
 div#block-system-user-menu ul.menu {margin-left: 20px;}
